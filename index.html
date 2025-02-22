@@ -215,7 +215,7 @@
             <div class="modal-content">
                 <span class="close-modal">&times;</span>
                 <h2>Оставить заявку</h2>
-                <form id="modalForm" class="contact-form" action="/send_mail.php" method="get">
+                <form id="modalForm" class="contact-form" action="/send_mail.php" method="post">
                     <div class="form-group">
                         <label for="modalName">Имя</label>
                         <input type="text" id="modalName" name="name" placeholder="Иван Иванов" required>
@@ -237,11 +237,11 @@
         <ul class="social-buttons">
             <a href="https://t.me/+79660479837" class="social-button button-telegram">
                 <img src="src/tg.svg" alt="">
-                <span>Telegram</span>
+
             </a>
             <a href="https://wa.me/+79851007873" class="social-button button-whatsapp">
                 <img src="src/whatsapp.svg" alt="">
-                <span>WhatsApp</span>
+
             </a>
         </ul>
     </main>
