@@ -4,73 +4,19 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Многоразовые трафареты</title>
+    <title>Изготовление трафаретов, наклеек на заказ</title>
     <!-- SEO Meta Tags -->
-    <meta name="description"
-        content="Изготовление брендовых ростовых кукол для вашей компании. Создаем маскоты с учетом фирменного стиля. Качественные материалы, быстрые сроки изготовления.">
-    <meta name="keywords"
-        content="брендовые ростовые куклы, корпоративный маскот, ростовая кукла для компании, заказать маскота">
+    <meta name="description" content="Изготовление трафаретов, наклеек на заказ">
+    <meta name="keywords" content="Изготовление трафаретов, наклеек на заказ">
+    <meta name="robots" content="index, follow">
+    <!-- Open Graph Tags -->
+
     <!-- Font Awesome for icons -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
     <!-- Google Fonts -->
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
     <!-- Custom CSS -->
     <link rel="stylesheet" href="styles.css">
-    <style>
-        /* Additional styles for category page */
-        .category-detail {
-            padding: 120px 0 80px;
-        }
-
-        .category-header {
-            text-align: center;
-            margin-bottom: 50px;
-        }
-
-        .product-grid {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-            gap: 30px;
-            margin-bottom: 50px;
-        }
-
-        .product-card {
-            background: #fff;
-            border-radius: 8px;
-            overflow: hidden;
-            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-        }
-
-        .product-card img {
-            width: 100%;
-            height: 250px;
-            object-fit: cover;
-        }
-
-        .product-info {
-            padding: 20px;
-        }
-
-        .product-info h3 {
-            margin-bottom: 10px;
-        }
-
-        .product-info p {
-            color: #666;
-            margin-bottom: 15px;
-        }
-
-        .back-link {
-            display: inline-block;
-            margin-bottom: 30px;
-            color: #007bff;
-            text-decoration: none;
-        }
-
-        .back-link:hover {
-            text-decoration: underline;
-        }
-    </style>
 </head>
 
 <body>
@@ -105,13 +51,14 @@
     <!-- Navigation -->
     <nav class="nav">
         <div class="container">
-            <div class="logo">Многоразовые трафареты</div>
+            <div class="logo">ТРАФАРЕТЫ, НАКЛЕЙКИ</div>
             <button class="nav-toggle" aria-label="Открыть меню">
                 <i class="fas fa-bars nav-hamburger"></i>
             </button>
             <ul class="nav-menu">
                 <li><a href="#home">Главная</a></li>
                 <li><a href="#categories">Наши услуги</a></li>
+                <li><a href="https://reklamaleader.ru/plotter/index.html">Наклейки</a></li>
                 <li><a href="#contact">Контакты</a></li>
                 <li class="nav-menu__icons-mobile">
                     <a href="tel:+79660479837" class="contact-item">
@@ -149,43 +96,80 @@
 
     <!-- Main Content -->
     <main>
-        <section class="category-page">
+        <!-- Hero Section -->
+        <section id="home" class="hero">
             <div class="container">
-                <div class="category-header">
-                    <h1>Многоразовые трафареты</h1>
-                    <p class="category-description">
-                        <br> Стоимость изготовления от 100 р/шт</br>
-                        <br> Срок изготовления от 1 дня</br>
-                    </p>
+                <h1> ИЗГОТОВЛЕНИЕ ТРАФАРЕТОВ</h1>
+                <!-- Section's title goes here -->
+                <br> Стоимость от 100 р/шт<br><br>Организуем доставку.<br><br>БЕСПЛАТНАЯ консультация!<br><br>
+                Поможем с МОНТАЖОМ!<br><br>Опертивно. Качественно. Разумные цены!<br>
+                <div class="address">
+                    <i class="fas fa-map-marker-alt"></i>
+                    г. Москва, Свободный проспект, д. 7, корп. 2
                 </div>
+            </div>
+        </section>
 
-                <div class="product-grid">
-                    <!-- TODO: Заменить все изображения на реальные фото брендовых кукол -->
-                    <div class="product-card">
-                        <img src="src/1_1.jpg" alt="Механизированные куклы">
-                        <div class="product-info">
-                            <h3>Легкость монтажа</h3>
-                            <p>Трафарет легко крепится на поверхности обычным малярным скотчем</p>
-                        </div>
-                    </div>
+        <!-- Categories Section -->
+        <section id="categories" class="categories">
+            <div class="container">
+                <h2>Наши Услуги:</h2>
+                <div class="category-grid">
+                    <!-- Категория: Брендовые куклы -->
+                    <!-- TODO: Заменить изображение на реальное фото брендовых кукол -->
+                    <a href="1.html" class="category-card">
+                        <img src="src/1.jpg" alt="Трафареты из пластика">
+                        <h3>МНОГОРАЗОВЫЕ ТРАФАРЕТЫ</h3>
+                        <p>Трафареты из пластика ПЭТ прочные и эластичные!</p>
+                    </a>
 
-                    <div class="product-card">
-                        <img src="src/1_2.png" alt="Механизированные куклы">
-                        <div class="product-info">
-                            <h3>Любые размеры!</h3>
-                            <p>Составные трафареты больших размеров - идеально и легко стыкуются!</p>
-                        </div>
-                    </div>
+                    <!-- Категория: Механизированные куклы -->
+                    <!-- TODO: Заменить изображение на реальное фото механизированных кукол (аниматроника) -->
+                    <a href="2.html" class="category-card">
+                        <img src="src/2.jpg" alt="Трафареты из плёнки">
+                        <h3>ОДНОРАЗОВЫЕ ТРАФАРЕТЫ</h3>
+                        <p>Плёнка с клеем временной фиксации, не оставляет следов!</p>
+                    </a>
 
-                    <div class="product-card">
-                        <img src="src/1_3.png" alt="Механизированные куклы">
-                        <div class="product-info">
-                            <h3>Возможность инверсии</h3>
-                            <p>Возможно нанесение краски как внутри, так и снаружи контуров рисунка</p>
-                        </div>
-                    </div>
+                    <!-- Категория: Мультперсонажи -->
+                    <!-- TODO: Заменить изображение на реальное фото кукол мультперсонажей -->
+                    <a href="3.html" class="category-card">
+                        <img src="src/3.jpg" alt="Цифры и алфавит">
+                        <h3>БУКВЫ И ЦИФРЫ</h3>
+                        <p>Любой размер, шрифт и количество!</p>
+                    </a>
+
+                    <!-- Категория: Куклы-животные -->
+                    <!-- TODO: Заменить изображение на реальное фото кукол-животных -->
+                    <a href="4.html" class="category-card">
+                        <img src="src/4.jpg" alt="Трафареты для кофе">
+                        <h3>ТРАФАРЕТЫ ДЛЯ КОФЕ</h3>
+                        <p>Прозрачный пластик, под любой размер чашки!</p>
+                    </a>
+
+                    <!-- Категория: Куклы-животные -->
+                    <!-- TODO: Заменить изображение на реальное фото кукол-животных -->
+                    <a href="5.html" class="category-card">
+                        <img src="src/5.jpg" alt="Трафареты для тортов">
+                        <h3>КОНДИТЕРСКИЕ ТРАФАРЕТЫ</h3>
+                        <p>Для тортов, десертов, пряников</p>
+                    </a>
+
+                    <!-- Категория: Куклы-предметы -->
+                    <!-- TODO: Заменить изображение на реальное фото кукол-предметов -->
+                    <a href="6.html" class="category-card">
+                        <img src="src/6.jpg" alt="Трафареты для дорожной разметки">
+                        <h3>ДОРОЖНАЯ РАЗМЕТКА</h3>
+                        <p>Ударопрочный пластик, сборные - удобство транспортировки!</p>
+                    </a>
                 </div>
+            </div>
+        </section>
 
+        <!-- Features Section -->
+        <section class="features">
+            <div class="container">
+                <h2>ЛЮБОЙ РАЗМЕР И КОЛИЧЕСТВО</h2>
                 <div class="features-grid">
                     <div class="features-column">
                         <div class="feature-item">
@@ -220,7 +204,6 @@
                         </div>
                     </div>
                 </div>
-
                 <div class="features-cta">
                     <button class="btn-cta" id="openModal">Оставьте заявку, и мы вам обязательно перезвоним</button>
                 </div>
@@ -266,7 +249,59 @@
     <!-- Footer -->
     <footer class="footer">
         <div class="container">
-            <p>&copy; 2024 . Все права защищены.</p>
+            <div class="footer-content">
+                <div class="footer-info">
+                    <div class="footer-logo">
+                        <h3>ТРАФАРЕТЫ</h3>
+                    </div>
+                    <div class="footer-description">
+                        <p>Производство трафаретов любой сложности на заказ</p>
+                        <div class="footer-address">
+                            <i class="fas fa-map-marker-alt"></i>
+                            г. Москва, Свободный проспект д. 7, корп. 2
+                        </div>
+                    </div>
+                </div>
+                <div class="footer-menu">
+                    <div class="footer-section">
+                        <h4>ПРЕДЛАГАЕМ</h4>
+                        <ul>
+                            <li><a href="1.html">Многоразовые трафареты</a></li>
+                            <li><a href="2.html">Одноразовые трафареты</a></li>
+                            <li><a href="3.html">Трафареты букв и цифр</a></li>
+                            <li><a href="4.html">Трафареты для кофе</a></li>
+                            <li><a href="5.html">Трафареты для пряников</a></li>
+                            <li><a href="6.html">Трафареты для дорожной разметки</a></li>
+                            <li><a href="5.html">Трафареты для тортов</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-section">
+                        <h4>О НАС</h4>
+                        <ul>
+                            <li><a href="#">Портфолио (наши работы)</a></li>
+                            <li><a href="#">Доставка</a></li>
+                            <li><a href="#">Контакты</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-section">
+                        <h4>КОНТАКТЫ</h4>
+                        <div class="footer-contacts">
+                            <p><a href="tel:+79660483367">+7 (966) 047 98 37</a></p>
+                            <p><a href="tel:+79851007873">+7 (985) 100 78 73</a></p>
+                            <p><a href="mailto:+79851007873">89851007873@mail.ru</a></p>
+                            <p class="work-hours">По будням с 9 до 21</p>
+                            <p class="work-hours">По выходным с 10 до 19</p>
+                        </div>
+                        <div class="social-links">
+                            <a href="#" class="social-link"><i class="fab fa-youtube"></i></a>
+                            <a href="#" class="social-link"><i class="fab fa-instagram"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 АркаРА. Все права защищены.</p>
+            </div>
         </div>
     </footer>
 

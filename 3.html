@@ -1,9 +1,10 @@
 <!DOCTYPE html>
 <html lang="ru">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-     <title>Трафареты букв и цифр</title>
+    <title>Трафареты букв и цифр</title>
     <!-- SEO Meta Tags -->
     <meta name="description" content="Изготовление трафаретов, наклеек на заказ">
     <meta name="keywords" content="Изготовление трафаретов, наклеек на заказ">
@@ -35,7 +36,7 @@
             background: #fff;
             border-radius: 8px;
             overflow: hidden;
-            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
         }
 
         .product-card img {
@@ -69,6 +70,7 @@
         }
     </style>
 </head>
+
 <body>
     <!-- Header -->
     <header class="header">
@@ -78,15 +80,15 @@
                     <i class="fas fa-phone"></i>
                     +7 (966) 047 98 37
                 </a>
-				<a href="tel:+79851007873" class="contact-item">
+                <a href="tel:+79851007873" class="contact-item">
                     <i class="fas fa-phone"></i>
                     +7 (985) 100 78 73
                 </a>
-				<a href="mailto:89851007873@mail.ru" class="contact-item">
+                <a href="mailto:89851007873@mail.ru" class="contact-item">
                     <span style="display: inline-block; font-size: 24px; color: #000000;">✉️</span>
                     89851007873@mail.ru
                 </a>
-                <a href="https://t.me/@AVS925" class="contact-item">
+                <a href="https://t.me/+79660479837" class="contact-item">
                     <i class="fab fa-telegram"></i>
                     Telegram
                 </a>
@@ -101,14 +103,44 @@
     <!-- Navigation -->
     <nav class="nav">
         <div class="container">
-            <a href="index.html" class="logo">Трафареты букв и цифр </a>
+            <div class="logo">Трафареты букв и цифр </div>
             <button class="nav-toggle" aria-label="Открыть меню">
-                <i class="fas fa-bars"></i>
+                <i class="fas fa-bars nav-hamburger"></i>
             </button>
             <ul class="nav-menu">
-                <li><a href="index.html">Главная</a></li>
-                <li><a href="index.html#categories">Наши услуги</a></li>
-                <li><a href="contacts.html">Контакты</a></li>
+                <li><a href="#home">Главная</a></li>
+                <li><a href="#categories">Наши услуги</a></li>
+                <li><a href="#contact">Контакты</a></li>
+                <li class="nav-menu__icons-mobile">
+                    <a href="tel:+79660479837" class="contact-item">
+                        <i class="fas fa-phone"></i>
+                        +7 (966) 047 98 37
+                    </a>
+                </li>
+                <li class="nav-menu__icons-mobile">
+                    <a href="tel:+79851007873" class="contact-item">
+                        <i class="fas fa-phone"></i>
+                        +7 (985) 100 78 73
+                    </a>
+                </li>
+                <li class="nav-menu__icons-mobile">
+                    <a href="mailto:89851007873@mail.ru" class="contact-item">
+                        <span style="display: inline-block; font-size: 24px; color: #000000;">✉️</span>
+                        89851007873@mail.ru
+                    </a>
+                </li>
+                <li class="nav-menu__icons-mobile">
+                    <a href="https://t.me/+79660479837" class="contact-item">
+                        <i class="fab fa-telegram"></i>
+                        Telegram
+                    </a>
+                </li>
+                <li class="nav-menu__icons-mobile">
+                    <a href="https://wa.me/+79851007873" class="contact-item">
+                        <i class="fab fa-whatsapp"></i>
+                        WhatsApp
+                    </a>
+                </li>
             </ul>
         </div>
     </nav>
@@ -121,7 +153,7 @@
                     <h1>Трафареты букв и цифр</h1>
                     <p class="category-description">
                         <br> Стоимость изготовления от 100 р/шт</br>
-						<br> Срок изготовления от 1 дня</br>
+                        <br> Срок изготовления от 1 дня</br>
                     </p>
                 </div>
 
@@ -166,8 +198,8 @@
                             <i class="fas fa-check-circle"></i>
                             <p>Отправка в регионы ТК</p>
                         </div>
-                        </div>
-                        <div class="features-column">
+                    </div>
+                    <div class="features-column">
                         <div class="feature-item">
                             <i class="fas fa-check-circle"></i>
                             <p>Скидки на количество</p>
@@ -198,24 +230,35 @@
     <div class="modal" id="contactModal">
         <div class="modal-content">
             <span class="close-modal">&times;</span>
-            <h2>Заказать обратный звонок</h2>
-            <form id="modalForm" class="contact-form">
+            <h2>Оставить заявку</h2>
+            <form id="modalForm" class="contact-form" action="/send_mail.php" method="post">
                 <div class="form-group">
                     <label for="modalName">Имя</label>
-                    <input type="text" id="modalName" name="name" required>
+                    <input type="text" id="modalName" name="name" placeholder="Иван Иванов" required>
                 </div>
                 <div class="form-group">
                     <label for="modalEmail">Номер телефона</label>
-                    <input type="tel" id="modalEmail" name="email" required>
+                    <input type="tel" id="modalEmail" name="phone" placeholder="+7(___)___-__-__" required>
                 </div>
                 <div class="form-group">
                     <label for="modalComment">Сообщение</label>
-                    <textarea id="modalComment" name="comment" rows="4" required></textarea>
+                    <textarea id="modalComment" name="comment" rows="4" placeholder="Ваш вопрос?" required></textarea>
                 </div>
-                <button type="submit" class="btn">Отправить заявку</button>
+                <button type="submit" class="btn">Отправить</button>
             </form>
         </div>
     </div>
+
+    <ul class="social-buttons">
+        <a href="https://t.me/+79660479837" class="social-button button-telegram">
+            <img src="src/tg.svg" alt="">
+
+        </a>
+        <a href="https://wa.me/+79851007873" class="social-button button-whatsapp">
+            <img src="src/whatsapp.svg" alt="">
+
+        </a>
+    </ul>
 
     <!-- Footer -->
     <footer class="footer">
@@ -227,23 +270,28 @@
     <!-- Custom JavaScript -->
     <script src="script.js"></script>
     <script src="contact-form.js"></script>
-<!-- Yandex.Metrika counter -->
-<script type="text/javascript" >
-   (function(m,e,t,r,i,k,a){m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};
-   m[i].l=1*new Date();
-   for (var j = 0; j < document.scripts.length; j++) {if (document.scripts[j].src === r) { return; }}
-   k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)})
-   (window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym");
+    <!-- Yandex.Metrika counter -->
+    <script type="text/javascript">
+        (function (m, e, t, r, i, k, a) {
+            m[i] = m[i] || function () { (m[i].a = m[i].a || []).push(arguments) };
+            m[i].l = 1 * new Date();
+            for (var j = 0; j < document.scripts.length; j++) { if (document.scripts[j].src === r) { return; } }
+            k = e.createElement(t), a = e.getElementsByTagName(t)[0], k.async = 1, k.src = r, a.parentNode.insertBefore(k, a)
+        })
+            (window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym");
 
-   ym(93886890, "init", {
-        clickmap:true,
-        trackLinks:true,
-        accurateTrackBounce:true,
-        webvisor:true,
-        ecommerce:"dataLayer"
-   });
-</script>
-<noscript><div><img src="https://mc.yandex.ru/watch/93886890" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
-<!-- /Yandex.Metrika counter -->
+        ym(93886890, "init", {
+            clickmap: true,
+            trackLinks: true,
+            accurateTrackBounce: true,
+            webvisor: true,
+            ecommerce: "dataLayer"
+        });
+    </script>
+    <noscript>
+        <div><img src="https://mc.yandex.ru/watch/93886890" style="position:absolute; left:-9999px;" alt="" /></div>
+    </noscript>
+    <!-- /Yandex.Metrika counter -->
 </body>
-</html> 
+
+</html>

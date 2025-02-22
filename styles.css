@@ -1013,9 +1013,8 @@ body {
 
 .social-buttons {
   position: fixed;
-  bottom: 20px;
-  right: 20px;
-
+  bottom: 50%;
+  right: 10px;
   display: flex;
   flex-direction: column;
   gap: 15px;
@@ -1028,7 +1027,7 @@ body {
   justify-content: center;
   text-decoration: none;
   align-items: center;
-  padding: 4px 8px;
+  padding: 4px;
   transition: 0.3s ease;
 }
 
