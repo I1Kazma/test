@@ -1,0 +1,1899 @@
+[06-Feb-2025 13:58:40 Europe/Moscow] Received input: {"name":"vgg","email":"buyvuvffy@mail.ru","message":"vuyvvyyvyvyvvy"}
+[06-Feb-2025 13:58:40 Europe/Moscow] SMTP Debug: SERVER -> CLIENT: 220 smtp.mail.ru ESMTP ready (Looking for Mail for your domain? Visit https://biz.mail.ru)
+
+[06-Feb-2025 13:58:40 Europe/Moscow] SMTP Debug: CLIENT -> SERVER: EHLO xn--24-6kcaz7dcmfq.xn--p1ai
+
+[06-Feb-2025 13:58:40 Europe/Moscow] SMTP Debug: SERVER -> CLIENT: 250-smtp.mail.ru
+250-SIZE 73400320
+250-8BITMIME
+250-DSN
+250-SMTPUTF8
+250 AUTH PLAIN LOGIN XOAUTH2
+
+[06-Feb-2025 13:58:40 Europe/Moscow] SMTP Debug: CLIENT -> SERVER: AUTH LOGIN
+
+[06-Feb-2025 13:58:40 Europe/Moscow] SMTP Debug: SERVER -> CLIENT: 334 VXNlcm5hbWU6
+
+[06-Feb-2025 13:58:40 Europe/Moscow] SMTP Debug: CLIENT -> SERVER: [credentials hidden]
+[06-Feb-2025 13:58:40 Europe/Moscow] SMTP Debug: SERVER -> CLIENT: 334 UGFzc3dvcmQ6
+
+[06-Feb-2025 13:58:40 Europe/Moscow] SMTP Debug: CLIENT -> SERVER: [credentials hidden]
+[06-Feb-2025 13:58:40 Europe/Moscow] SMTP Debug: SERVER -> CLIENT: 235 Authentication succeeded
+
+[06-Feb-2025 13:58:40 Europe/Moscow] SMTP Debug: CLIENT -> SERVER: MAIL FROM:<89851007873@mail.ru>
+
+[06-Feb-2025 13:58:40 Europe/Moscow] SMTP Debug: SERVER -> CLIENT: 250 OK
+
+[06-Feb-2025 13:58:40 Europe/Moscow] SMTP Debug: CLIENT -> SERVER: RCPT TO:<89851007873@mail.ru>
+
+[06-Feb-2025 13:58:40 Europe/Moscow] SMTP Debug: SERVER -> CLIENT: 501 sender address must match authenticated user
+
+[06-Feb-2025 13:58:40 Europe/Moscow] SMTP Debug: SMTP ERROR: RCPT TO command failed: 501 sender address must match authenticated user
+
+[06-Feb-2025 13:58:40 Europe/Moscow] SMTP Debug: CLIENT -> SERVER: RSET
+
+[06-Feb-2025 13:58:40 Europe/Moscow] SMTP Debug: SERVER -> CLIENT: 503 sender not yet given
+
+[06-Feb-2025 13:58:40 Europe/Moscow] SMTP Debug: SMTP ERROR: RSET command failed: 503 sender not yet given
+
+[06-Feb-2025 13:58:40 Europe/Moscow] SMTP Debug: SMTP Error: The following recipients failed: 89851007873@mail.ru: sender address must match authenticated user
+
+[06-Feb-2025 13:58:40 Europe/Moscow] SMTP Debug: CLIENT -> SERVER: RSET
+
+[06-Feb-2025 13:58:41 Europe/Moscow] SMTP Debug: SERVER -> CLIENT: 250 Reset OK
+
+[06-Feb-2025 13:58:41 Europe/Moscow] PHPMailer Error: SMTP Error: The following recipients failed: 89851007873@mail.ru: sender address must match authenticated user
+
+[06-Feb-2025 13:58:41 Europe/Moscow] Error in send_mail.php: Mail sending failed: SMTP Error: The following recipients failed: 89851007873@mail.ru: sender address must match authenticated user
+
+[06-Feb-2025 13:58:41 Europe/Moscow] SMTP Debug: CLIENT -> SERVER: QUIT
+
+[06-Feb-2025 13:58:41 Europe/Moscow] SMTP Debug: SERVER -> CLIENT: 250 Reset OK
+
+[06-Feb-2025 13:58:41 Europe/Moscow] SMTP Debug: SMTP ERROR: QUIT command failed: 250 Reset OK
+
+[06-Feb-2025 14:03:36 Europe/Moscow] Received input: {"name":"vuvuvu","email":"jbjguuggu@mail.ru","message":"vuvuvuvuvu"}
+[06-Feb-2025 14:03:36 Europe/Moscow] SMTP Debug: SERVER -> CLIENT: 220 smtp.mail.ru ESMTP ready (Looking for Mail for your domain? Visit https://biz.mail.ru)
+
+[06-Feb-2025 14:03:36 Europe/Moscow] SMTP Debug: CLIENT -> SERVER: EHLO xn--24-6kcaz7dcmfq.xn--p1ai
+
+[06-Feb-2025 14:03:36 Europe/Moscow] SMTP Debug: SERVER -> CLIENT: 250-smtp.mail.ru
+250-SIZE 73400320
+250-8BITMIME
+250-DSN
+250-SMTPUTF8
+250 AUTH PLAIN LOGIN XOAUTH2
+
+[06-Feb-2025 14:03:36 Europe/Moscow] SMTP Debug: CLIENT -> SERVER: AUTH LOGIN
+
+[06-Feb-2025 14:03:36 Europe/Moscow] SMTP Debug: SERVER -> CLIENT: 334 VXNlcm5hbWU6
+
+[06-Feb-2025 14:03:36 Europe/Moscow] SMTP Debug: CLIENT -> SERVER: [credentials hidden]
+[06-Feb-2025 14:03:36 Europe/Moscow] SMTP Debug: SERVER -> CLIENT: 334 UGFzc3dvcmQ6
+
+[06-Feb-2025 14:03:36 Europe/Moscow] SMTP Debug: CLIENT -> SERVER: [credentials hidden]
+[06-Feb-2025 14:03:36 Europe/Moscow] SMTP Debug: SERVER -> CLIENT: 235 Authentication succeeded
+
+[06-Feb-2025 14:03:36 Europe/Moscow] SMTP Debug: CLIENT -> SERVER: MAIL FROM:<tests.project@mail.ru>
+
+[06-Feb-2025 14:03:36 Europe/Moscow] SMTP Debug: SERVER -> CLIENT: 250 OK
+
+[06-Feb-2025 14:03:36 Europe/Moscow] SMTP Debug: CLIENT -> SERVER: RCPT TO:<tests.project@mail.ru>
+
+[06-Feb-2025 14:03:36 Europe/Moscow] SMTP Debug: SERVER -> CLIENT: 250 Accepted
+
+[06-Feb-2025 14:03:36 Europe/Moscow] SMTP Debug: CLIENT -> SERVER: DATA
+
+[06-Feb-2025 14:03:36 Europe/Moscow] SMTP Debug: SERVER -> CLIENT: 354 Enter message, ending with "." on a line by itself
+
+[06-Feb-2025 14:03:36 Europe/Moscow] SMTP Debug: CLIENT -> SERVER: Date: Thu, 6 Feb 2025 14:03:36 +0300
+
+[06-Feb-2025 14:03:36 Europe/Moscow] SMTP Debug: CLIENT -> SERVER: To: tests.project@mail.ru
+
+[06-Feb-2025 14:03:36 Europe/Moscow] SMTP Debug: CLIENT -> SERVER: From: Contact Form <tests.project@mail.ru>
+
+[06-Feb-2025 14:03:36 Europe/Moscow] SMTP Debug: CLIENT -> SERVER: Subject: =?UTF-8?B?0J3QvtCy0L7QtSDRgdC+0L7QsdGJ0LXQvdC40LUg0YEg0YHQsNC50YLQsA==?=
+
+[06-Feb-2025 14:03:36 Europe/Moscow] SMTP Debug: CLIENT -> SERVER: Message-ID: <ipPU0dV9u4EisDFroPbRTxzJKFrOgV8dzlpAuMDeMQ@xn--24-6kcaz7dcmfq.xn--p1ai>
+
+[06-Feb-2025 14:03:36 Europe/Moscow] SMTP Debug: CLIENT -> SERVER: X-Mailer: PHPMailer 6.9.3 (https://github.com/PHPMailer/PHPMailer)
+
+[06-Feb-2025 14:03:36 Europe/Moscow] SMTP Debug: CLIENT -> SERVER: MIME-Version: 1.0
+
+[06-Feb-2025 14:03:36 Europe/Moscow] SMTP Debug: CLIENT -> SERVER: Content-Type: text/html; charset=UTF-8
+
+[06-Feb-2025 14:03:36 Europe/Moscow] SMTP Debug: CLIENT -> SERVER: Content-Transfer-Encoding: 8bit
+
+[06-Feb-2025 14:03:36 Europe/Moscow] SMTP Debug: CLIENT -> SERVER: 
+
+[06-Feb-2025 14:03:36 Europe/Moscow] SMTP Debug: CLIENT -> SERVER: 
+
+[06-Feb-2025 14:03:36 Europe/Moscow] SMTP Debug: CLIENT -> SERVER:             <h2>Новое сообщение с формы обратной связи</h2>
+
+[06-Feb-2025 14:03:36 Europe/Moscow] SMTP Debug: CLIENT -> SERVER:             <p><strong>Имя:</strong> vuvuvu</p>
+
+[06-Feb-2025 14:03:36 Europe/Moscow] SMTP Debug: CLIENT -> SERVER:             <p><strong>Email:</strong> jbjguuggu@mail.ru</p>
+
+[06-Feb-2025 14:03:36 Europe/Moscow] SMTP Debug: CLIENT -> SERVER:             <p><strong>Сообщение:</strong><br>vuvuvuvuvu</p>
+
+[06-Feb-2025 14:03:36 Europe/Moscow] SMTP Debug: CLIENT -> SERVER:         
+
+[06-Feb-2025 14:03:36 Europe/Moscow] SMTP Debug: CLIENT -> SERVER: 
+
+[06-Feb-2025 14:03:36 Europe/Moscow] SMTP Debug: CLIENT -> SERVER: .
+
+[06-Feb-2025 14:03:37 Europe/Moscow] SMTP Debug: SERVER -> CLIENT: 250 OK id=1tfzfU-00000000MCC-1guo
+
+[06-Feb-2025 14:03:37 Europe/Moscow] SMTP Debug: CLIENT -> SERVER: RSET
+
+[06-Feb-2025 14:03:37 Europe/Moscow] SMTP Debug: SERVER -> CLIENT: 250 Reset OK
+
+[06-Feb-2025 14:03:37 Europe/Moscow] SMTP Debug: CLIENT -> SERVER: QUIT
+
+[06-Feb-2025 14:03:37 Europe/Moscow] SMTP Debug: SERVER -> CLIENT: 221 exim-smtp-6d97ff8cf4-rrm92 closing connection
+
+[06-Feb-2025 15:23:44 Europe/Moscow] Received input: {"name":"еыре","email":"sfeka5251@gmail.com","message":"пыррпрп"}
+[06-Feb-2025 15:23:44 Europe/Moscow] SMTP Debug: SERVER -> CLIENT: 220 smtp.mail.ru ESMTP ready (Looking for Mail for your domain? Visit https://biz.mail.ru)
+
+[06-Feb-2025 15:23:44 Europe/Moscow] SMTP Debug: CLIENT -> SERVER: EHLO xn--24-6kcaz7dcmfq.xn--p1ai
+
+[06-Feb-2025 15:23:44 Europe/Moscow] SMTP Debug: SERVER -> CLIENT: 250-smtp.mail.ru
+250-SIZE 73400320
+250-8BITMIME
+250-DSN
+250-SMTPUTF8
+250 AUTH PLAIN LOGIN XOAUTH2
+
+[06-Feb-2025 15:23:44 Europe/Moscow] SMTP Debug: CLIENT -> SERVER: AUTH LOGIN
+
+[06-Feb-2025 15:23:44 Europe/Moscow] SMTP Debug: SERVER -> CLIENT: 334 VXNlcm5hbWU6
+
+[06-Feb-2025 15:23:44 Europe/Moscow] SMTP Debug: CLIENT -> SERVER: [credentials hidden]
+[06-Feb-2025 15:23:44 Europe/Moscow] SMTP Debug: SERVER -> CLIENT: 334 UGFzc3dvcmQ6
+
+[06-Feb-2025 15:23:44 Europe/Moscow] SMTP Debug: CLIENT -> SERVER: [credentials hidden]
+[06-Feb-2025 15:23:44 Europe/Moscow] SMTP Debug: SERVER -> CLIENT: 235 Authentication succeeded
+
+[06-Feb-2025 15:23:44 Europe/Moscow] SMTP Debug: CLIENT -> SERVER: MAIL FROM:<89851007873@mail.ru>
+
+[06-Feb-2025 15:23:44 Europe/Moscow] SMTP Debug: SERVER -> CLIENT: 250 OK
+
+[06-Feb-2025 15:23:44 Europe/Moscow] SMTP Debug: CLIENT -> SERVER: RCPT TO:<89851007873@mail.ru>
+
+[06-Feb-2025 15:23:44 Europe/Moscow] SMTP Debug: SERVER -> CLIENT: 250 Accepted
+
+[06-Feb-2025 15:23:44 Europe/Moscow] SMTP Debug: CLIENT -> SERVER: DATA
+
+[06-Feb-2025 15:23:44 Europe/Moscow] SMTP Debug: SERVER -> CLIENT: 354 Enter message, ending with "." on a line by itself
+
+[06-Feb-2025 15:23:44 Europe/Moscow] SMTP Debug: CLIENT -> SERVER: Date: Thu, 6 Feb 2025 15:23:44 +0300
+
+[06-Feb-2025 15:23:44 Europe/Moscow] SMTP Debug: CLIENT -> SERVER: To: 89851007873@mail.ru
+
+[06-Feb-2025 15:23:44 Europe/Moscow] SMTP Debug: CLIENT -> SERVER: From: Contact Form <89851007873@mail.ru>
+
+[06-Feb-2025 15:23:44 Europe/Moscow] SMTP Debug: CLIENT -> SERVER: Subject: =?UTF-8?B?0J3QvtCy0L7QtSDRgdC+0L7QsdGJ0LXQvdC40LUg0YEg0YHQsNC50YLQsA==?=
+
+[06-Feb-2025 15:23:44 Europe/Moscow] SMTP Debug: CLIENT -> SERVER: Message-ID: <yqzjE2hWqBTCDTZv2eCY1VqdmSeWGBlJ9RtdOapkBE@xn--24-6kcaz7dcmfq.xn--p1ai>
+
+[06-Feb-2025 15:23:44 Europe/Moscow] SMTP Debug: CLIENT -> SERVER: X-Mailer: PHPMailer 6.9.3 (https://github.com/PHPMailer/PHPMailer)
+
+[06-Feb-2025 15:23:44 Europe/Moscow] SMTP Debug: CLIENT -> SERVER: MIME-Version: 1.0
+
+[06-Feb-2025 15:23:44 Europe/Moscow] SMTP Debug: CLIENT -> SERVER: Content-Type: text/html; charset=UTF-8
+
+[06-Feb-2025 15:23:44 Europe/Moscow] SMTP Debug: CLIENT -> SERVER: Content-Transfer-Encoding: 8bit
+
+[06-Feb-2025 15:23:44 Europe/Moscow] SMTP Debug: CLIENT -> SERVER: 
+
+[06-Feb-2025 15:23:44 Europe/Moscow] SMTP Debug: CLIENT -> SERVER: 
+
+[06-Feb-2025 15:23:44 Europe/Moscow] SMTP Debug: CLIENT -> SERVER:             <h2>Новое сообщение с формы обратной связи</h2>
+
+[06-Feb-2025 15:23:44 Europe/Moscow] SMTP Debug: CLIENT -> SERVER:             <p><strong>Имя:</strong> еыре</p>
+
+[06-Feb-2025 15:23:44 Europe/Moscow] SMTP Debug: CLIENT -> SERVER:             <p><strong>Email:</strong> sfeka5251@gmail.com</p>
+
+[06-Feb-2025 15:23:44 Europe/Moscow] SMTP Debug: CLIENT -> SERVER:             <p><strong>Сообщение:</strong><br>пыррпрп</p>
+
+[06-Feb-2025 15:23:44 Europe/Moscow] SMTP Debug: CLIENT -> SERVER:         
+
+[06-Feb-2025 15:23:44 Europe/Moscow] SMTP Debug: CLIENT -> SERVER: 
+
+[06-Feb-2025 15:23:44 Europe/Moscow] SMTP Debug: CLIENT -> SERVER: .
+
+[06-Feb-2025 15:23:44 Europe/Moscow] SMTP Debug: SERVER -> CLIENT: 250 OK id=1tg0v2-000000002wl-14EY
+
+[06-Feb-2025 15:23:44 Europe/Moscow] SMTP Debug: CLIENT -> SERVER: RSET
+
+[06-Feb-2025 15:23:44 Europe/Moscow] SMTP Debug: SERVER -> CLIENT: 250 Reset OK
+
+[06-Feb-2025 15:23:44 Europe/Moscow] SMTP Debug: CLIENT -> SERVER: QUIT
+
+[06-Feb-2025 15:23:45 Europe/Moscow] SMTP Debug: SERVER -> CLIENT: 221 exim-smtp-6d97ff8cf4-mzbfq closing connection
+
+[06-Feb-2025 15:27:18 Europe/Moscow] Received input: {"name":"jtd","email":"8095490303","message":"dfn"}
+[06-Feb-2025 15:27:19 Europe/Moscow] SMTP Debug: SERVER -> CLIENT: 220 smtp.mail.ru ESMTP ready (Looking for Mail for your domain? Visit https://biz.mail.ru)
+
+[06-Feb-2025 15:27:19 Europe/Moscow] SMTP Debug: CLIENT -> SERVER: EHLO xn--24-6kcaz7dcmfq.xn--p1ai
+
+[06-Feb-2025 15:27:19 Europe/Moscow] SMTP Debug: SERVER -> CLIENT: 250-smtp.mail.ru
+250-SIZE 73400320
+250-8BITMIME
+250-DSN
+250-SMTPUTF8
+250 AUTH PLAIN LOGIN XOAUTH2
+
+[06-Feb-2025 15:27:19 Europe/Moscow] SMTP Debug: CLIENT -> SERVER: AUTH LOGIN
+
+[06-Feb-2025 15:27:19 Europe/Moscow] SMTP Debug: SERVER -> CLIENT: 334 VXNlcm5hbWU6
+
+[06-Feb-2025 15:27:19 Europe/Moscow] SMTP Debug: CLIENT -> SERVER: [credentials hidden]
+[06-Feb-2025 15:27:19 Europe/Moscow] SMTP Debug: SERVER -> CLIENT: 334 UGFzc3dvcmQ6
+
+[06-Feb-2025 15:27:19 Europe/Moscow] SMTP Debug: CLIENT -> SERVER: [credentials hidden]
+[06-Feb-2025 15:27:19 Europe/Moscow] SMTP Debug: SERVER -> CLIENT: 235 Authentication succeeded
+
+[06-Feb-2025 15:27:19 Europe/Moscow] SMTP Debug: CLIENT -> SERVER: MAIL FROM:<89851007873@mail.ru>
+
+[06-Feb-2025 15:27:19 Europe/Moscow] SMTP Debug: SERVER -> CLIENT: 250 OK
+
+[06-Feb-2025 15:27:19 Europe/Moscow] SMTP Debug: CLIENT -> SERVER: RCPT TO:<89851007873@mail.ru>
+
+[06-Feb-2025 15:27:19 Europe/Moscow] SMTP Debug: SERVER -> CLIENT: 250 Accepted
+
+[06-Feb-2025 15:27:19 Europe/Moscow] SMTP Debug: CLIENT -> SERVER: DATA
+
+[06-Feb-2025 15:27:19 Europe/Moscow] SMTP Debug: SERVER -> CLIENT: 354 Enter message, ending with "." on a line by itself
+
+[06-Feb-2025 15:27:19 Europe/Moscow] SMTP Debug: CLIENT -> SERVER: Date: Thu, 6 Feb 2025 15:27:18 +0300
+
+[06-Feb-2025 15:27:19 Europe/Moscow] SMTP Debug: CLIENT -> SERVER: To: 89851007873@mail.ru
+
+[06-Feb-2025 15:27:19 Europe/Moscow] SMTP Debug: CLIENT -> SERVER: From: Contact Form <89851007873@mail.ru>
+
+[06-Feb-2025 15:27:19 Europe/Moscow] SMTP Debug: CLIENT -> SERVER: Subject: =?UTF-8?B?0J3QvtCy0L7QtSDRgdC+0L7QsdGJ0LXQvdC40LUg0YEg0YHQsNC50YLQsA==?=
+
+[06-Feb-2025 15:27:19 Europe/Moscow] SMTP Debug: CLIENT -> SERVER: Message-ID: <fHfln7pP05gBfciU2EbYS5yCROEKSlPchKWUNUNP8@xn--24-6kcaz7dcmfq.xn--p1ai>
+
+[06-Feb-2025 15:27:19 Europe/Moscow] SMTP Debug: CLIENT -> SERVER: X-Mailer: PHPMailer 6.9.3 (https://github.com/PHPMailer/PHPMailer)
+
+[06-Feb-2025 15:27:19 Europe/Moscow] SMTP Debug: CLIENT -> SERVER: MIME-Version: 1.0
+
+[06-Feb-2025 15:27:19 Europe/Moscow] SMTP Debug: CLIENT -> SERVER: Content-Type: text/html; charset=UTF-8
+
+[06-Feb-2025 15:27:19 Europe/Moscow] SMTP Debug: CLIENT -> SERVER: Content-Transfer-Encoding: 8bit
+
+[06-Feb-2025 15:27:19 Europe/Moscow] SMTP Debug: CLIENT -> SERVER: 
+
+[06-Feb-2025 15:27:19 Europe/Moscow] SMTP Debug: CLIENT -> SERVER: 
+
+[06-Feb-2025 15:27:19 Europe/Moscow] SMTP Debug: CLIENT -> SERVER:             <h2>Новое сообщение с формы обратной связи</h2>
+
+[06-Feb-2025 15:27:19 Europe/Moscow] SMTP Debug: CLIENT -> SERVER:             <p><strong>Имя:</strong> jtd</p>
+
+[06-Feb-2025 15:27:19 Europe/Moscow] SMTP Debug: CLIENT -> SERVER:             <p><strong>Email:</strong> 8095490303</p>
+
+[06-Feb-2025 15:27:19 Europe/Moscow] SMTP Debug: CLIENT -> SERVER:             <p><strong>Сообщение:</strong><br>dfn</p>
+
+[06-Feb-2025 15:27:19 Europe/Moscow] SMTP Debug: CLIENT -> SERVER:         
+
+[06-Feb-2025 15:27:19 Europe/Moscow] SMTP Debug: CLIENT -> SERVER: 
+
+[06-Feb-2025 15:27:19 Europe/Moscow] SMTP Debug: CLIENT -> SERVER: .
+
+[06-Feb-2025 15:27:19 Europe/Moscow] SMTP Debug: SERVER -> CLIENT: 250 OK id=1tg0yV-000000003wo-0fHM
+
+[06-Feb-2025 15:27:19 Europe/Moscow] SMTP Debug: CLIENT -> SERVER: RSET
+
+[06-Feb-2025 15:27:19 Europe/Moscow] SMTP Debug: SERVER -> CLIENT: 250 Reset OK
+
+[06-Feb-2025 15:27:19 Europe/Moscow] SMTP Debug: CLIENT -> SERVER: QUIT
+
+[06-Feb-2025 15:27:19 Europe/Moscow] SMTP Debug: SERVER -> CLIENT: 221 exim-smtp-6d97ff8cf4-d9pg9 closing connection
+
+[06-Feb-2025 15:28:42 Europe/Moscow] Received input: {"name":"рпот","email":"83489246293","message":"ыпирпрп"}
+[06-Feb-2025 15:28:42 Europe/Moscow] SMTP Debug: SERVER -> CLIENT: 220 smtp.mail.ru ESMTP ready (Looking for Mail for your domain? Visit https://biz.mail.ru)
+
+[06-Feb-2025 15:28:42 Europe/Moscow] SMTP Debug: CLIENT -> SERVER: EHLO xn--24-6kcaz7dcmfq.xn--p1ai
+
+[06-Feb-2025 15:28:42 Europe/Moscow] SMTP Debug: SERVER -> CLIENT: 250-smtp.mail.ru
+250-SIZE 73400320
+250-8BITMIME
+250-DSN
+250-SMTPUTF8
+250 AUTH PLAIN LOGIN XOAUTH2
+
+[06-Feb-2025 15:28:42 Europe/Moscow] SMTP Debug: CLIENT -> SERVER: AUTH LOGIN
+
+[06-Feb-2025 15:28:42 Europe/Moscow] SMTP Debug: SERVER -> CLIENT: 334 VXNlcm5hbWU6
+
+[06-Feb-2025 15:28:42 Europe/Moscow] SMTP Debug: CLIENT -> SERVER: [credentials hidden]
+[06-Feb-2025 15:28:42 Europe/Moscow] SMTP Debug: SERVER -> CLIENT: 334 UGFzc3dvcmQ6
+
+[06-Feb-2025 15:28:42 Europe/Moscow] SMTP Debug: CLIENT -> SERVER: [credentials hidden]
+[06-Feb-2025 15:28:42 Europe/Moscow] SMTP Debug: SERVER -> CLIENT: 235 Authentication succeeded
+
+[06-Feb-2025 15:28:42 Europe/Moscow] SMTP Debug: CLIENT -> SERVER: MAIL FROM:<89851007873@mail.ru>
+
+[06-Feb-2025 15:28:42 Europe/Moscow] SMTP Debug: SERVER -> CLIENT: 250 OK
+
+[06-Feb-2025 15:28:42 Europe/Moscow] SMTP Debug: CLIENT -> SERVER: RCPT TO:<89851007873@mail.ru>
+
+[06-Feb-2025 15:28:42 Europe/Moscow] SMTP Debug: SERVER -> CLIENT: 250 Accepted
+
+[06-Feb-2025 15:28:42 Europe/Moscow] SMTP Debug: CLIENT -> SERVER: DATA
+
+[06-Feb-2025 15:28:42 Europe/Moscow] SMTP Debug: SERVER -> CLIENT: 354 Enter message, ending with "." on a line by itself
+
+[06-Feb-2025 15:28:42 Europe/Moscow] SMTP Debug: CLIENT -> SERVER: Date: Thu, 6 Feb 2025 15:28:42 +0300
+
+[06-Feb-2025 15:28:42 Europe/Moscow] SMTP Debug: CLIENT -> SERVER: To: 89851007873@mail.ru
+
+[06-Feb-2025 15:28:42 Europe/Moscow] SMTP Debug: CLIENT -> SERVER: From: Contact Form <89851007873@mail.ru>
+
+[06-Feb-2025 15:28:42 Europe/Moscow] SMTP Debug: CLIENT -> SERVER: Subject: =?UTF-8?B?0J3QvtCy0L7QtSDRgdC+0L7QsdGJ0LXQvdC40LUg0YEg0YHQsNC50YLQsA==?=
+
+[06-Feb-2025 15:28:42 Europe/Moscow] SMTP Debug: CLIENT -> SERVER: Message-ID: <bP4p35zfijSTc2hzzhBfbr8P4oqm1aecJqUmpR4I@xn--24-6kcaz7dcmfq.xn--p1ai>
+
+[06-Feb-2025 15:28:42 Europe/Moscow] SMTP Debug: CLIENT -> SERVER: X-Mailer: PHPMailer 6.9.3 (https://github.com/PHPMailer/PHPMailer)
+
+[06-Feb-2025 15:28:42 Europe/Moscow] SMTP Debug: CLIENT -> SERVER: MIME-Version: 1.0
+
+[06-Feb-2025 15:28:42 Europe/Moscow] SMTP Debug: CLIENT -> SERVER: Content-Type: text/html; charset=UTF-8
+
+[06-Feb-2025 15:28:42 Europe/Moscow] SMTP Debug: CLIENT -> SERVER: Content-Transfer-Encoding: 8bit
+
+[06-Feb-2025 15:28:42 Europe/Moscow] SMTP Debug: CLIENT -> SERVER: 
+
+[06-Feb-2025 15:28:42 Europe/Moscow] SMTP Debug: CLIENT -> SERVER: 
+
+[06-Feb-2025 15:28:42 Europe/Moscow] SMTP Debug: CLIENT -> SERVER:             <h2>Новое сообщение с формы обратной связи</h2>
+
+[06-Feb-2025 15:28:42 Europe/Moscow] SMTP Debug: CLIENT -> SERVER:             <p><strong>Имя:</strong> рпот</p>
+
+[06-Feb-2025 15:28:42 Europe/Moscow] SMTP Debug: CLIENT -> SERVER:             <p><strong>Номер телефона:</strong> 83489246293</p>
+
+[06-Feb-2025 15:28:42 Europe/Moscow] SMTP Debug: CLIENT -> SERVER:             <p><strong>Сообщение:</strong><br>ыпирпрп</p>
+
+[06-Feb-2025 15:28:42 Europe/Moscow] SMTP Debug: CLIENT -> SERVER:         
+
+[06-Feb-2025 15:28:42 Europe/Moscow] SMTP Debug: CLIENT -> SERVER: 
+
+[06-Feb-2025 15:28:42 Europe/Moscow] SMTP Debug: CLIENT -> SERVER: .
+
+[06-Feb-2025 15:28:43 Europe/Moscow] SMTP Debug: SERVER -> CLIENT: 250 OK id=1tg0zq-00000000AtU-2Bps
+
+[06-Feb-2025 15:28:43 Europe/Moscow] SMTP Debug: CLIENT -> SERVER: RSET
+
+[06-Feb-2025 15:28:43 Europe/Moscow] SMTP Debug: SERVER -> CLIENT: 250 Reset OK
+
+[06-Feb-2025 15:28:43 Europe/Moscow] SMTP Debug: CLIENT -> SERVER: QUIT
+
+[06-Feb-2025 15:28:43 Europe/Moscow] SMTP Debug: SERVER -> CLIENT: 221 exim-smtp-6d97ff8cf4-8glgx closing connection
+
+[06-Feb-2025 15:32:40 Europe/Moscow] Received input: {"name":"fdgds","email":"5783859830","message":"sgwdge"}
+[06-Feb-2025 15:32:41 Europe/Moscow] SMTP Debug: SERVER -> CLIENT: 220 smtp.mail.ru ESMTP ready (Looking for Mail for your domain? Visit https://biz.mail.ru)
+
+[06-Feb-2025 15:32:41 Europe/Moscow] SMTP Debug: CLIENT -> SERVER: EHLO xn--24-6kcaz7dcmfq.xn--p1ai
+
+[06-Feb-2025 15:32:41 Europe/Moscow] SMTP Debug: SERVER -> CLIENT: 250-smtp.mail.ru
+250-SIZE 73400320
+250-8BITMIME
+250-DSN
+250-SMTPUTF8
+250 AUTH PLAIN LOGIN XOAUTH2
+
+[06-Feb-2025 15:32:41 Europe/Moscow] SMTP Debug: CLIENT -> SERVER: AUTH LOGIN
+
+[06-Feb-2025 15:32:41 Europe/Moscow] SMTP Debug: SERVER -> CLIENT: 334 VXNlcm5hbWU6
+
+[06-Feb-2025 15:32:41 Europe/Moscow] SMTP Debug: CLIENT -> SERVER: [credentials hidden]
+[06-Feb-2025 15:32:41 Europe/Moscow] SMTP Debug: SERVER -> CLIENT: 334 UGFzc3dvcmQ6
+
+[06-Feb-2025 15:32:41 Europe/Moscow] SMTP Debug: CLIENT -> SERVER: [credentials hidden]
+[06-Feb-2025 15:32:41 Europe/Moscow] SMTP Debug: SERVER -> CLIENT: 235 Authentication succeeded
+
+[06-Feb-2025 15:32:41 Europe/Moscow] SMTP Debug: CLIENT -> SERVER: MAIL FROM:<89851007873@mail.ru>
+
+[06-Feb-2025 15:32:41 Europe/Moscow] SMTP Debug: SERVER -> CLIENT: 250 OK
+
+[06-Feb-2025 15:32:41 Europe/Moscow] SMTP Debug: CLIENT -> SERVER: RCPT TO:<89851007873@mail.ru>
+
+[06-Feb-2025 15:32:41 Europe/Moscow] SMTP Debug: SERVER -> CLIENT: 250 Accepted
+
+[06-Feb-2025 15:32:41 Europe/Moscow] SMTP Debug: CLIENT -> SERVER: DATA
+
+[06-Feb-2025 15:32:41 Europe/Moscow] SMTP Debug: SERVER -> CLIENT: 354 Enter message, ending with "." on a line by itself
+
+[06-Feb-2025 15:32:41 Europe/Moscow] SMTP Debug: CLIENT -> SERVER: Date: Thu, 6 Feb 2025 15:32:40 +0300
+
+[06-Feb-2025 15:32:41 Europe/Moscow] SMTP Debug: CLIENT -> SERVER: To: 89851007873@mail.ru
+
+[06-Feb-2025 15:32:41 Europe/Moscow] SMTP Debug: CLIENT -> SERVER: From: Contact Form <89851007873@mail.ru>
+
+[06-Feb-2025 15:32:41 Europe/Moscow] SMTP Debug: CLIENT -> SERVER: Subject: =?UTF-8?B?0J3QvtCy0L7QtSDRgdC+0L7QsdGJ0LXQvdC40LUg0YEg0YHQsNC50YLQsA==?=
+
+[06-Feb-2025 15:32:41 Europe/Moscow] SMTP Debug: CLIENT -> SERVER: Message-ID: <ZO1L42xxnLq4NY01WxNZQqDnrXyf5Y2679U0LVuPE@xn--24-6kcaz7dcmfq.xn--p1ai>
+
+[06-Feb-2025 15:32:41 Europe/Moscow] SMTP Debug: CLIENT -> SERVER: X-Mailer: PHPMailer 6.9.3 (https://github.com/PHPMailer/PHPMailer)
+
+[06-Feb-2025 15:32:41 Europe/Moscow] SMTP Debug: CLIENT -> SERVER: MIME-Version: 1.0
+
+[06-Feb-2025 15:32:41 Europe/Moscow] SMTP Debug: CLIENT -> SERVER: Content-Type: text/html; charset=UTF-8
+
+[06-Feb-2025 15:32:41 Europe/Moscow] SMTP Debug: CLIENT -> SERVER: Content-Transfer-Encoding: 8bit
+
+[06-Feb-2025 15:32:41 Europe/Moscow] SMTP Debug: CLIENT -> SERVER: 
+
+[06-Feb-2025 15:32:41 Europe/Moscow] SMTP Debug: CLIENT -> SERVER: 
+
+[06-Feb-2025 15:32:41 Europe/Moscow] SMTP Debug: CLIENT -> SERVER:             <h2>Новое сообщение с формы обратной связи</h2>
+
+[06-Feb-2025 15:32:41 Europe/Moscow] SMTP Debug: CLIENT -> SERVER:             <p><strong>Имя:</strong> fdgds</p>
+
+[06-Feb-2025 15:32:41 Europe/Moscow] SMTP Debug: CLIENT -> SERVER:             <p><strong>Номер телефона:</strong> 5783859830</p>
+
+[06-Feb-2025 15:32:41 Europe/Moscow] SMTP Debug: CLIENT -> SERVER:             <p><strong>Сообщение:</strong><br>sgwdge</p>
+
+[06-Feb-2025 15:32:41 Europe/Moscow] SMTP Debug: CLIENT -> SERVER:         
+
+[06-Feb-2025 15:32:41 Europe/Moscow] SMTP Debug: CLIENT -> SERVER: 
+
+[06-Feb-2025 15:32:41 Europe/Moscow] SMTP Debug: CLIENT -> SERVER: .
+
+[06-Feb-2025 15:32:41 Europe/Moscow] SMTP Debug: SERVER -> CLIENT: 250 OK id=1tg13h-000000003ZP-0ziP
+
+[06-Feb-2025 15:32:41 Europe/Moscow] SMTP Debug: CLIENT -> SERVER: RSET
+
+[06-Feb-2025 15:32:41 Europe/Moscow] SMTP Debug: SERVER -> CLIENT: 250 Reset OK
+
+[06-Feb-2025 15:32:41 Europe/Moscow] SMTP Debug: CLIENT -> SERVER: QUIT
+
+[06-Feb-2025 15:32:41 Europe/Moscow] SMTP Debug: SERVER -> CLIENT: 221 exim-smtp-6d97ff8cf4-qk8kb closing connection
+
+[06-Feb-2025 15:53:13 Europe/Moscow] Received input: {"name":"ангн","email":"4373447","message":"аора"}
+[06-Feb-2025 15:53:14 Europe/Moscow] SMTP Debug: SERVER -> CLIENT: 220 smtp.mail.ru ESMTP ready (Looking for Mail for your domain? Visit https://biz.mail.ru)
+
+[06-Feb-2025 15:53:14 Europe/Moscow] SMTP Debug: CLIENT -> SERVER: EHLO xn--24-6kcaz7dcmfq.xn--p1ai
+
+[06-Feb-2025 15:53:14 Europe/Moscow] SMTP Debug: SERVER -> CLIENT: 250-smtp.mail.ru
+250-SIZE 73400320
+250-8BITMIME
+250-DSN
+250-SMTPUTF8
+250 AUTH PLAIN LOGIN XOAUTH2
+
+[06-Feb-2025 15:53:14 Europe/Moscow] SMTP Debug: CLIENT -> SERVER: AUTH LOGIN
+
+[06-Feb-2025 15:53:14 Europe/Moscow] SMTP Debug: SERVER -> CLIENT: 334 VXNlcm5hbWU6
+
+[06-Feb-2025 15:53:14 Europe/Moscow] SMTP Debug: CLIENT -> SERVER: [credentials hidden]
+[06-Feb-2025 15:53:14 Europe/Moscow] SMTP Debug: SERVER -> CLIENT: 334 UGFzc3dvcmQ6
+
+[06-Feb-2025 15:53:14 Europe/Moscow] SMTP Debug: CLIENT -> SERVER: [credentials hidden]
+[06-Feb-2025 15:53:14 Europe/Moscow] SMTP Debug: SERVER -> CLIENT: 235 Authentication succeeded
+
+[06-Feb-2025 15:53:14 Europe/Moscow] SMTP Debug: CLIENT -> SERVER: MAIL FROM:<89851007873@mail.ru>
+
+[06-Feb-2025 15:53:14 Europe/Moscow] SMTP Debug: SERVER -> CLIENT: 250 OK
+
+[06-Feb-2025 15:53:14 Europe/Moscow] SMTP Debug: CLIENT -> SERVER: RCPT TO:<89851007873@mail.ru>
+
+[06-Feb-2025 15:53:14 Europe/Moscow] SMTP Debug: SERVER -> CLIENT: 250 Accepted
+
+[06-Feb-2025 15:53:14 Europe/Moscow] SMTP Debug: CLIENT -> SERVER: DATA
+
+[06-Feb-2025 15:53:14 Europe/Moscow] SMTP Debug: SERVER -> CLIENT: 354 Enter message, ending with "." on a line by itself
+
+[06-Feb-2025 15:53:14 Europe/Moscow] SMTP Debug: CLIENT -> SERVER: Date: Thu, 6 Feb 2025 15:53:13 +0300
+
+[06-Feb-2025 15:53:14 Europe/Moscow] SMTP Debug: CLIENT -> SERVER: To: 89851007873@mail.ru
+
+[06-Feb-2025 15:53:14 Europe/Moscow] SMTP Debug: CLIENT -> SERVER: From: Contact Form <89851007873@mail.ru>
+
+[06-Feb-2025 15:53:14 Europe/Moscow] SMTP Debug: CLIENT -> SERVER: Subject: =?UTF-8?B?0J3QvtCy0L7QtSDRgdC+0L7QsdGJ0LXQvdC40LUg0YEg0YHQsNC50YLQsA==?=
+
+[06-Feb-2025 15:53:14 Europe/Moscow] SMTP Debug: CLIENT -> SERVER: Message-ID: <xeoCZklusYpqDHhFoox63ZvDdkD9d8blzx3EG2aSD3U@xn--24-6kcaz7dcmfq.xn--p1ai>
+
+[06-Feb-2025 15:53:14 Europe/Moscow] SMTP Debug: CLIENT -> SERVER: X-Mailer: PHPMailer 6.9.3 (https://github.com/PHPMailer/PHPMailer)
+
+[06-Feb-2025 15:53:14 Europe/Moscow] SMTP Debug: CLIENT -> SERVER: MIME-Version: 1.0
+
+[06-Feb-2025 15:53:14 Europe/Moscow] SMTP Debug: CLIENT -> SERVER: Content-Type: text/html; charset=UTF-8
+
+[06-Feb-2025 15:53:14 Europe/Moscow] SMTP Debug: CLIENT -> SERVER: Content-Transfer-Encoding: 8bit
+
+[06-Feb-2025 15:53:14 Europe/Moscow] SMTP Debug: CLIENT -> SERVER: 
+
+[06-Feb-2025 15:53:14 Europe/Moscow] SMTP Debug: CLIENT -> SERVER: 
+
+[06-Feb-2025 15:53:14 Europe/Moscow] SMTP Debug: CLIENT -> SERVER:             <h2>Новое сообщение с формы обратной связи</h2>
+
+[06-Feb-2025 15:53:14 Europe/Moscow] SMTP Debug: CLIENT -> SERVER:             <p><strong>Имя:</strong> ангн</p>
+
+[06-Feb-2025 15:53:14 Europe/Moscow] SMTP Debug: CLIENT -> SERVER:             <p><strong>Номер телефона:</strong> 4373447</p>
+
+[06-Feb-2025 15:53:14 Europe/Moscow] SMTP Debug: CLIENT -> SERVER:             <p><strong>Сообщение:</strong><br>аора</p>
+
+[06-Feb-2025 15:53:14 Europe/Moscow] SMTP Debug: CLIENT -> SERVER:         
+
+[06-Feb-2025 15:53:14 Europe/Moscow] SMTP Debug: CLIENT -> SERVER: 
+
+[06-Feb-2025 15:53:14 Europe/Moscow] SMTP Debug: CLIENT -> SERVER: .
+
+[06-Feb-2025 15:53:14 Europe/Moscow] SMTP Debug: SERVER -> CLIENT: 250 OK id=1tg1Na-000000007U8-1AK8
+
+[06-Feb-2025 15:53:14 Europe/Moscow] SMTP Debug: CLIENT -> SERVER: RSET
+
+[06-Feb-2025 15:53:14 Europe/Moscow] SMTP Debug: SERVER -> CLIENT: 250 Reset OK
+
+[06-Feb-2025 15:53:14 Europe/Moscow] SMTP Debug: CLIENT -> SERVER: QUIT
+
+[06-Feb-2025 15:53:15 Europe/Moscow] SMTP Debug: SERVER -> CLIENT: 221 exim-smtp-6d97ff8cf4-hcpzs closing connection
+
+[06-Feb-2025 15:55:27 Europe/Moscow] Received input: {"name":"вор","email":"4676547546","message":"апло"}
+[06-Feb-2025 15:55:27 Europe/Moscow] SMTP Debug: SERVER -> CLIENT: 220 smtp.mail.ru ESMTP ready (Looking for Mail for your domain? Visit https://biz.mail.ru)
+
+[06-Feb-2025 15:55:27 Europe/Moscow] SMTP Debug: CLIENT -> SERVER: EHLO xn--24-6kcaz7dcmfq.xn--p1ai
+
+[06-Feb-2025 15:55:27 Europe/Moscow] SMTP Debug: SERVER -> CLIENT: 250-smtp.mail.ru
+250-SIZE 73400320
+250-8BITMIME
+250-DSN
+250-SMTPUTF8
+250 AUTH PLAIN LOGIN XOAUTH2
+
+[06-Feb-2025 15:55:27 Europe/Moscow] SMTP Debug: CLIENT -> SERVER: AUTH LOGIN
+
+[06-Feb-2025 15:55:27 Europe/Moscow] SMTP Debug: SERVER -> CLIENT: 334 VXNlcm5hbWU6
+
+[06-Feb-2025 15:55:27 Europe/Moscow] SMTP Debug: CLIENT -> SERVER: [credentials hidden]
+[06-Feb-2025 15:55:27 Europe/Moscow] SMTP Debug: SERVER -> CLIENT: 334 UGFzc3dvcmQ6
+
+[06-Feb-2025 15:55:27 Europe/Moscow] SMTP Debug: CLIENT -> SERVER: [credentials hidden]
+[06-Feb-2025 15:55:27 Europe/Moscow] SMTP Debug: SERVER -> CLIENT: 235 Authentication succeeded
+
+[06-Feb-2025 15:55:27 Europe/Moscow] SMTP Debug: CLIENT -> SERVER: MAIL FROM:<89851007873@mail.ru>
+
+[06-Feb-2025 15:55:27 Europe/Moscow] SMTP Debug: SERVER -> CLIENT: 250 OK
+
+[06-Feb-2025 15:55:27 Europe/Moscow] SMTP Debug: CLIENT -> SERVER: RCPT TO:<89851007873@mail.ru>
+
+[06-Feb-2025 15:55:27 Europe/Moscow] SMTP Debug: SERVER -> CLIENT: 250 Accepted
+
+[06-Feb-2025 15:55:27 Europe/Moscow] SMTP Debug: CLIENT -> SERVER: DATA
+
+[06-Feb-2025 15:55:27 Europe/Moscow] SMTP Debug: SERVER -> CLIENT: 354 Enter message, ending with "." on a line by itself
+
+[06-Feb-2025 15:55:27 Europe/Moscow] SMTP Debug: CLIENT -> SERVER: Date: Thu, 6 Feb 2025 15:55:27 +0300
+
+[06-Feb-2025 15:55:27 Europe/Moscow] SMTP Debug: CLIENT -> SERVER: To: 89851007873@mail.ru
+
+[06-Feb-2025 15:55:27 Europe/Moscow] SMTP Debug: CLIENT -> SERVER: From: Contact Form <89851007873@mail.ru>
+
+[06-Feb-2025 15:55:27 Europe/Moscow] SMTP Debug: CLIENT -> SERVER: Subject: =?UTF-8?B?0J3QvtCy0L7QtSDRgdC+0L7QsdGJ0LXQvdC40LUg0YEg0YHQsNC50YLQsA==?=
+
+[06-Feb-2025 15:55:27 Europe/Moscow] SMTP Debug: CLIENT -> SERVER: Message-ID: <UNpKUOObPacQSu5tMTAraVwOEiWSPHxCNSWaGtAz8@xn--24-6kcaz7dcmfq.xn--p1ai>
+
+[06-Feb-2025 15:55:27 Europe/Moscow] SMTP Debug: CLIENT -> SERVER: X-Mailer: PHPMailer 6.9.3 (https://github.com/PHPMailer/PHPMailer)
+
+[06-Feb-2025 15:55:27 Europe/Moscow] SMTP Debug: CLIENT -> SERVER: MIME-Version: 1.0
+
+[06-Feb-2025 15:55:27 Europe/Moscow] SMTP Debug: CLIENT -> SERVER: Content-Type: text/html; charset=UTF-8
+
+[06-Feb-2025 15:55:27 Europe/Moscow] SMTP Debug: CLIENT -> SERVER: Content-Transfer-Encoding: 8bit
+
+[06-Feb-2025 15:55:27 Europe/Moscow] SMTP Debug: CLIENT -> SERVER: 
+
+[06-Feb-2025 15:55:27 Europe/Moscow] SMTP Debug: CLIENT -> SERVER: 
+
+[06-Feb-2025 15:55:27 Europe/Moscow] SMTP Debug: CLIENT -> SERVER:             <h2>Новое сообщение с формы обратной связи</h2>
+
+[06-Feb-2025 15:55:27 Europe/Moscow] SMTP Debug: CLIENT -> SERVER:             <p><strong>Имя:</strong> вор</p>
+
+[06-Feb-2025 15:55:27 Europe/Moscow] SMTP Debug: CLIENT -> SERVER:             <p><strong>Номер телефона:</strong> 4676547546</p>
+
+[06-Feb-2025 15:55:27 Europe/Moscow] SMTP Debug: CLIENT -> SERVER:             <p><strong>Сообщение:</strong><br>апло</p>
+
+[06-Feb-2025 15:55:27 Europe/Moscow] SMTP Debug: CLIENT -> SERVER:         
+
+[06-Feb-2025 15:55:27 Europe/Moscow] SMTP Debug: CLIENT -> SERVER: 
+
+[06-Feb-2025 15:55:27 Europe/Moscow] SMTP Debug: CLIENT -> SERVER: .
+
+[06-Feb-2025 15:55:28 Europe/Moscow] SMTP Debug: SERVER -> CLIENT: 250 OK id=1tg1Pj-00000000BkM-2aPS
+
+[06-Feb-2025 15:55:28 Europe/Moscow] SMTP Debug: CLIENT -> SERVER: RSET
+
+[06-Feb-2025 15:55:28 Europe/Moscow] SMTP Debug: SERVER -> CLIENT: 250 Reset OK
+
+[06-Feb-2025 15:55:28 Europe/Moscow] SMTP Debug: CLIENT -> SERVER: QUIT
+
+[06-Feb-2025 15:55:28 Europe/Moscow] SMTP Debug: SERVER -> CLIENT: 221 exim-smtp-6d97ff8cf4-n2z2s closing connection
+
+[06-Feb-2025 16:17:50 Europe/Moscow] Received input: {"name":"Аркадий","email":"84956499293@mail.ru","message":"вар"}
+[06-Feb-2025 16:17:50 Europe/Moscow] SMTP Debug: SERVER -> CLIENT: 220 smtp.mail.ru ESMTP ready (Looking for Mail for your domain? Visit https://biz.mail.ru)
+
+[06-Feb-2025 16:17:50 Europe/Moscow] SMTP Debug: CLIENT -> SERVER: EHLO xn--24-6kcaz7dcmfq.xn--p1ai
+
+[06-Feb-2025 16:17:50 Europe/Moscow] SMTP Debug: SERVER -> CLIENT: 250-smtp.mail.ru
+250-SIZE 73400320
+250-8BITMIME
+250-DSN
+250-SMTPUTF8
+250 AUTH PLAIN LOGIN XOAUTH2
+
+[06-Feb-2025 16:17:50 Europe/Moscow] SMTP Debug: CLIENT -> SERVER: AUTH LOGIN
+
+[06-Feb-2025 16:17:50 Europe/Moscow] SMTP Debug: SERVER -> CLIENT: 334 VXNlcm5hbWU6
+
+[06-Feb-2025 16:17:50 Europe/Moscow] SMTP Debug: CLIENT -> SERVER: [credentials hidden]
+[06-Feb-2025 16:17:50 Europe/Moscow] SMTP Debug: SERVER -> CLIENT: 334 UGFzc3dvcmQ6
+
+[06-Feb-2025 16:17:50 Europe/Moscow] SMTP Debug: CLIENT -> SERVER: [credentials hidden]
+[06-Feb-2025 16:17:50 Europe/Moscow] SMTP Debug: SERVER -> CLIENT: 235 Authentication succeeded
+
+[06-Feb-2025 16:17:50 Europe/Moscow] SMTP Debug: CLIENT -> SERVER: MAIL FROM:<89851007873@mail.ru>
+
+[06-Feb-2025 16:17:50 Europe/Moscow] SMTP Debug: SERVER -> CLIENT: 250 OK
+
+[06-Feb-2025 16:17:50 Europe/Moscow] SMTP Debug: CLIENT -> SERVER: RCPT TO:<89851007873@mail.ru>
+
+[06-Feb-2025 16:17:50 Europe/Moscow] SMTP Debug: SERVER -> CLIENT: 250 Accepted
+
+[06-Feb-2025 16:17:50 Europe/Moscow] SMTP Debug: CLIENT -> SERVER: DATA
+
+[06-Feb-2025 16:17:50 Europe/Moscow] SMTP Debug: SERVER -> CLIENT: 354 Enter message, ending with "." on a line by itself
+
+[06-Feb-2025 16:17:50 Europe/Moscow] SMTP Debug: CLIENT -> SERVER: Date: Thu, 6 Feb 2025 16:17:50 +0300
+
+[06-Feb-2025 16:17:50 Europe/Moscow] SMTP Debug: CLIENT -> SERVER: To: 89851007873@mail.ru
+
+[06-Feb-2025 16:17:50 Europe/Moscow] SMTP Debug: CLIENT -> SERVER: From: Contact Form <89851007873@mail.ru>
+
+[06-Feb-2025 16:17:50 Europe/Moscow] SMTP Debug: CLIENT -> SERVER: Subject: =?UTF-8?B?0J3QvtCy0L7QtSDRgdC+0L7QsdGJ0LXQvdC40LUg0YEg0YHQsNC50YLQsA==?=
+
+[06-Feb-2025 16:17:50 Europe/Moscow] SMTP Debug: CLIENT -> SERVER: Message-ID: <lD0GYmzWH2yXy7w9xPBi4CCCYgseJWCE7S5lhQIhyA@xn--24-6kcaz7dcmfq.xn--p1ai>
+
+[06-Feb-2025 16:17:50 Europe/Moscow] SMTP Debug: CLIENT -> SERVER: X-Mailer: PHPMailer 6.9.3 (https://github.com/PHPMailer/PHPMailer)
+
+[06-Feb-2025 16:17:50 Europe/Moscow] SMTP Debug: CLIENT -> SERVER: MIME-Version: 1.0
+
+[06-Feb-2025 16:17:50 Europe/Moscow] SMTP Debug: CLIENT -> SERVER: Content-Type: text/html; charset=UTF-8
+
+[06-Feb-2025 16:17:50 Europe/Moscow] SMTP Debug: CLIENT -> SERVER: Content-Transfer-Encoding: 8bit
+
+[06-Feb-2025 16:17:50 Europe/Moscow] SMTP Debug: CLIENT -> SERVER: 
+
+[06-Feb-2025 16:17:50 Europe/Moscow] SMTP Debug: CLIENT -> SERVER: 
+
+[06-Feb-2025 16:17:50 Europe/Moscow] SMTP Debug: CLIENT -> SERVER:             <h2>Новое сообщение с формы обратной связи</h2>
+
+[06-Feb-2025 16:17:50 Europe/Moscow] SMTP Debug: CLIENT -> SERVER:             <p><strong>Имя:</strong> Аркадий</p>
+
+[06-Feb-2025 16:17:50 Europe/Moscow] SMTP Debug: CLIENT -> SERVER:             <p><strong>Номер телефона:</strong> 84956499293@mail.ru</p>
+
+[06-Feb-2025 16:17:50 Europe/Moscow] SMTP Debug: CLIENT -> SERVER:             <p><strong>Сообщение:</strong><br>вар</p>
+
+[06-Feb-2025 16:17:50 Europe/Moscow] SMTP Debug: CLIENT -> SERVER:         
+
+[06-Feb-2025 16:17:50 Europe/Moscow] SMTP Debug: CLIENT -> SERVER: 
+
+[06-Feb-2025 16:17:50 Europe/Moscow] SMTP Debug: CLIENT -> SERVER: .
+
+[06-Feb-2025 16:17:50 Europe/Moscow] SMTP Debug: SERVER -> CLIENT: 250 OK id=1tg1lO-000000006oe-1Zur
+
+[06-Feb-2025 16:17:50 Europe/Moscow] SMTP Debug: CLIENT -> SERVER: RSET
+
+[06-Feb-2025 16:17:50 Europe/Moscow] SMTP Debug: SERVER -> CLIENT: 250 Reset OK
+
+[06-Feb-2025 16:17:50 Europe/Moscow] SMTP Debug: CLIENT -> SERVER: QUIT
+
+[06-Feb-2025 16:17:51 Europe/Moscow] SMTP Debug: SERVER -> CLIENT: 221 exim-smtp-6d97ff8cf4-7r5sk closing connection
+
+[06-Feb-2025 16:18:23 Europe/Moscow] Received input: {"name":"Аркадий","email":"84956499293@mail.ru","message":"рв"}
+[06-Feb-2025 16:18:23 Europe/Moscow] SMTP Debug: SERVER -> CLIENT: 220 smtp.mail.ru ESMTP ready (Looking for Mail for your domain? Visit https://biz.mail.ru)
+
+[06-Feb-2025 16:18:23 Europe/Moscow] SMTP Debug: CLIENT -> SERVER: EHLO xn--24-6kcaz7dcmfq.xn--p1ai
+
+[06-Feb-2025 16:18:23 Europe/Moscow] SMTP Debug: SERVER -> CLIENT: 250-smtp.mail.ru
+250-SIZE 73400320
+250-8BITMIME
+250-DSN
+250-SMTPUTF8
+250 AUTH PLAIN LOGIN XOAUTH2
+
+[06-Feb-2025 16:18:23 Europe/Moscow] SMTP Debug: CLIENT -> SERVER: AUTH LOGIN
+
+[06-Feb-2025 16:18:23 Europe/Moscow] SMTP Debug: SERVER -> CLIENT: 334 VXNlcm5hbWU6
+
+[06-Feb-2025 16:18:23 Europe/Moscow] SMTP Debug: CLIENT -> SERVER: [credentials hidden]
+[06-Feb-2025 16:18:23 Europe/Moscow] SMTP Debug: SERVER -> CLIENT: 334 UGFzc3dvcmQ6
+
+[06-Feb-2025 16:18:23 Europe/Moscow] SMTP Debug: CLIENT -> SERVER: [credentials hidden]
+[06-Feb-2025 16:18:23 Europe/Moscow] SMTP Debug: SERVER -> CLIENT: 235 Authentication succeeded
+
+[06-Feb-2025 16:18:23 Europe/Moscow] SMTP Debug: CLIENT -> SERVER: MAIL FROM:<89851007873@mail.ru>
+
+[06-Feb-2025 16:18:23 Europe/Moscow] SMTP Debug: SERVER -> CLIENT: 250 OK
+
+[06-Feb-2025 16:18:23 Europe/Moscow] SMTP Debug: CLIENT -> SERVER: RCPT TO:<89851007873@mail.ru>
+
+[06-Feb-2025 16:18:23 Europe/Moscow] SMTP Debug: SERVER -> CLIENT: 250 Accepted
+
+[06-Feb-2025 16:18:23 Europe/Moscow] SMTP Debug: CLIENT -> SERVER: DATA
+
+[06-Feb-2025 16:18:23 Europe/Moscow] SMTP Debug: SERVER -> CLIENT: 354 Enter message, ending with "." on a line by itself
+
+[06-Feb-2025 16:18:23 Europe/Moscow] SMTP Debug: CLIENT -> SERVER: Date: Thu, 6 Feb 2025 16:18:23 +0300
+
+[06-Feb-2025 16:18:23 Europe/Moscow] SMTP Debug: CLIENT -> SERVER: To: 89851007873@mail.ru
+
+[06-Feb-2025 16:18:23 Europe/Moscow] SMTP Debug: CLIENT -> SERVER: From: Contact Form <89851007873@mail.ru>
+
+[06-Feb-2025 16:18:23 Europe/Moscow] SMTP Debug: CLIENT -> SERVER: Subject: =?UTF-8?B?0J3QvtCy0L7QtSDRgdC+0L7QsdGJ0LXQvdC40LUg0YEg0YHQsNC50YLQsA==?=
+
+[06-Feb-2025 16:18:23 Europe/Moscow] SMTP Debug: CLIENT -> SERVER: Message-ID: <Tz0PtfWgRleT5FhHgZzr819ZORilBAdScmfJJc9SJRM@xn--24-6kcaz7dcmfq.xn--p1ai>
+
+[06-Feb-2025 16:18:23 Europe/Moscow] SMTP Debug: CLIENT -> SERVER: X-Mailer: PHPMailer 6.9.3 (https://github.com/PHPMailer/PHPMailer)
+
+[06-Feb-2025 16:18:23 Europe/Moscow] SMTP Debug: CLIENT -> SERVER: MIME-Version: 1.0
+
+[06-Feb-2025 16:18:23 Europe/Moscow] SMTP Debug: CLIENT -> SERVER: Content-Type: text/html; charset=UTF-8
+
+[06-Feb-2025 16:18:23 Europe/Moscow] SMTP Debug: CLIENT -> SERVER: Content-Transfer-Encoding: 8bit
+
+[06-Feb-2025 16:18:23 Europe/Moscow] SMTP Debug: CLIENT -> SERVER: 
+
+[06-Feb-2025 16:18:23 Europe/Moscow] SMTP Debug: CLIENT -> SERVER: 
+
+[06-Feb-2025 16:18:23 Europe/Moscow] SMTP Debug: CLIENT -> SERVER:             <h2>Новое сообщение с формы обратной связи</h2>
+
+[06-Feb-2025 16:18:23 Europe/Moscow] SMTP Debug: CLIENT -> SERVER:             <p><strong>Имя:</strong> Аркадий</p>
+
+[06-Feb-2025 16:18:23 Europe/Moscow] SMTP Debug: CLIENT -> SERVER:             <p><strong>Номер телефона:</strong> 84956499293@mail.ru</p>
+
+[06-Feb-2025 16:18:23 Europe/Moscow] SMTP Debug: CLIENT -> SERVER:             <p><strong>Сообщение:</strong><br>рв</p>
+
+[06-Feb-2025 16:18:23 Europe/Moscow] SMTP Debug: CLIENT -> SERVER:         
+
+[06-Feb-2025 16:18:23 Europe/Moscow] SMTP Debug: CLIENT -> SERVER: 
+
+[06-Feb-2025 16:18:23 Europe/Moscow] SMTP Debug: CLIENT -> SERVER: .
+
+[06-Feb-2025 16:18:24 Europe/Moscow] SMTP Debug: SERVER -> CLIENT: 250 OK id=1tg1lv-000000003rN-3zn9
+
+[06-Feb-2025 16:18:24 Europe/Moscow] SMTP Debug: CLIENT -> SERVER: RSET
+
+[06-Feb-2025 16:18:24 Europe/Moscow] SMTP Debug: SERVER -> CLIENT: 250 Reset OK
+
+[06-Feb-2025 16:18:24 Europe/Moscow] SMTP Debug: CLIENT -> SERVER: QUIT
+
+[06-Feb-2025 16:18:24 Europe/Moscow] SMTP Debug: SERVER -> CLIENT: 221 exim-smtp-6d97ff8cf4-7b82p closing connection
+
+[06-Feb-2025 16:18:57 Europe/Moscow] Received input: {"name":"Аркадий","email":"84956499293@mail.ru","message":"яв"}
+[06-Feb-2025 16:18:57 Europe/Moscow] SMTP Debug: SERVER -> CLIENT: 220 smtp.mail.ru ESMTP ready (Looking for Mail for your domain? Visit https://biz.mail.ru)
+
+[06-Feb-2025 16:18:57 Europe/Moscow] SMTP Debug: CLIENT -> SERVER: EHLO xn--24-6kcaz7dcmfq.xn--p1ai
+
+[06-Feb-2025 16:18:57 Europe/Moscow] SMTP Debug: SERVER -> CLIENT: 250-smtp.mail.ru
+250-SIZE 73400320
+250-8BITMIME
+250-DSN
+250-SMTPUTF8
+250 AUTH PLAIN LOGIN XOAUTH2
+
+[06-Feb-2025 16:18:57 Europe/Moscow] SMTP Debug: CLIENT -> SERVER: AUTH LOGIN
+
+[06-Feb-2025 16:18:57 Europe/Moscow] SMTP Debug: SERVER -> CLIENT: 334 VXNlcm5hbWU6
+
+[06-Feb-2025 16:18:57 Europe/Moscow] SMTP Debug: CLIENT -> SERVER: [credentials hidden]
+[06-Feb-2025 16:18:57 Europe/Moscow] SMTP Debug: SERVER -> CLIENT: 334 UGFzc3dvcmQ6
+
+[06-Feb-2025 16:18:57 Europe/Moscow] SMTP Debug: CLIENT -> SERVER: [credentials hidden]
+[06-Feb-2025 16:18:57 Europe/Moscow] SMTP Debug: SERVER -> CLIENT: 235 Authentication succeeded
+
+[06-Feb-2025 16:18:57 Europe/Moscow] SMTP Debug: CLIENT -> SERVER: MAIL FROM:<89851007873@mail.ru>
+
+[06-Feb-2025 16:18:57 Europe/Moscow] SMTP Debug: SERVER -> CLIENT: 250 OK
+
+[06-Feb-2025 16:18:57 Europe/Moscow] SMTP Debug: CLIENT -> SERVER: RCPT TO:<89851007873@mail.ru>
+
+[06-Feb-2025 16:18:57 Europe/Moscow] SMTP Debug: SERVER -> CLIENT: 250 Accepted
+
+[06-Feb-2025 16:18:57 Europe/Moscow] SMTP Debug: CLIENT -> SERVER: DATA
+
+[06-Feb-2025 16:18:57 Europe/Moscow] SMTP Debug: SERVER -> CLIENT: 354 Enter message, ending with "." on a line by itself
+
+[06-Feb-2025 16:18:57 Europe/Moscow] SMTP Debug: CLIENT -> SERVER: Date: Thu, 6 Feb 2025 16:18:57 +0300
+
+[06-Feb-2025 16:18:57 Europe/Moscow] SMTP Debug: CLIENT -> SERVER: To: 89851007873@mail.ru
+
+[06-Feb-2025 16:18:57 Europe/Moscow] SMTP Debug: CLIENT -> SERVER: From: Contact Form <89851007873@mail.ru>
+
+[06-Feb-2025 16:18:57 Europe/Moscow] SMTP Debug: CLIENT -> SERVER: Subject: =?UTF-8?B?0J3QvtCy0L7QtSDRgdC+0L7QsdGJ0LXQvdC40LUg0YEg0YHQsNC50YLQsA==?=
+
+[06-Feb-2025 16:18:57 Europe/Moscow] SMTP Debug: CLIENT -> SERVER: Message-ID: <cIwxAWUvq7ZHpx3cT2D99fKx1jzmTPN9Nxk9WJ49DOc@xn--24-6kcaz7dcmfq.xn--p1ai>
+
+[06-Feb-2025 16:18:57 Europe/Moscow] SMTP Debug: CLIENT -> SERVER: X-Mailer: PHPMailer 6.9.3 (https://github.com/PHPMailer/PHPMailer)
+
+[06-Feb-2025 16:18:57 Europe/Moscow] SMTP Debug: CLIENT -> SERVER: MIME-Version: 1.0
+
+[06-Feb-2025 16:18:57 Europe/Moscow] SMTP Debug: CLIENT -> SERVER: Content-Type: text/html; charset=UTF-8
+
+[06-Feb-2025 16:18:57 Europe/Moscow] SMTP Debug: CLIENT -> SERVER: Content-Transfer-Encoding: 8bit
+
+[06-Feb-2025 16:18:57 Europe/Moscow] SMTP Debug: CLIENT -> SERVER: 
+
+[06-Feb-2025 16:18:57 Europe/Moscow] SMTP Debug: CLIENT -> SERVER: 
+
+[06-Feb-2025 16:18:57 Europe/Moscow] SMTP Debug: CLIENT -> SERVER:             <h2>Новое сообщение с формы обратной связи</h2>
+
+[06-Feb-2025 16:18:57 Europe/Moscow] SMTP Debug: CLIENT -> SERVER:             <p><strong>Имя:</strong> Аркадий</p>
+
+[06-Feb-2025 16:18:57 Europe/Moscow] SMTP Debug: CLIENT -> SERVER:             <p><strong>Номер телефона:</strong> 84956499293@mail.ru</p>
+
+[06-Feb-2025 16:18:57 Europe/Moscow] SMTP Debug: CLIENT -> SERVER:             <p><strong>Сообщение:</strong><br>яв</p>
+
+[06-Feb-2025 16:18:57 Europe/Moscow] SMTP Debug: CLIENT -> SERVER:         
+
+[06-Feb-2025 16:18:57 Europe/Moscow] SMTP Debug: CLIENT -> SERVER: 
+
+[06-Feb-2025 16:18:57 Europe/Moscow] SMTP Debug: CLIENT -> SERVER: .
+
+[06-Feb-2025 16:18:57 Europe/Moscow] SMTP Debug: SERVER -> CLIENT: 250 OK id=1tg1mT-00000000HrJ-1dfI
+
+[06-Feb-2025 16:18:57 Europe/Moscow] SMTP Debug: CLIENT -> SERVER: RSET
+
+[06-Feb-2025 16:18:57 Europe/Moscow] SMTP Debug: SERVER -> CLIENT: 250 Reset OK
+
+[06-Feb-2025 16:18:57 Europe/Moscow] SMTP Debug: CLIENT -> SERVER: QUIT
+
+[06-Feb-2025 16:18:58 Europe/Moscow] SMTP Debug: SERVER -> CLIENT: 221 exim-smtp-6d97ff8cf4-zjsvd closing connection
+
+[06-Feb-2025 16:19:23 Europe/Moscow] Received input: {"name":"Аркадий","email":"84956499293@mail.ru","message":"виа"}
+[06-Feb-2025 16:19:23 Europe/Moscow] SMTP Debug: SERVER -> CLIENT: 220 smtp.mail.ru ESMTP ready (Looking for Mail for your domain? Visit https://biz.mail.ru)
+
+[06-Feb-2025 16:19:23 Europe/Moscow] SMTP Debug: CLIENT -> SERVER: EHLO xn--24-6kcaz7dcmfq.xn--p1ai
+
+[06-Feb-2025 16:19:23 Europe/Moscow] SMTP Debug: SERVER -> CLIENT: 250-smtp.mail.ru
+250-SIZE 73400320
+250-8BITMIME
+250-DSN
+250-SMTPUTF8
+250 AUTH PLAIN LOGIN XOAUTH2
+
+[06-Feb-2025 16:19:23 Europe/Moscow] SMTP Debug: CLIENT -> SERVER: AUTH LOGIN
+
+[06-Feb-2025 16:19:23 Europe/Moscow] SMTP Debug: SERVER -> CLIENT: 334 VXNlcm5hbWU6
+
+[06-Feb-2025 16:19:23 Europe/Moscow] SMTP Debug: CLIENT -> SERVER: [credentials hidden]
+[06-Feb-2025 16:19:23 Europe/Moscow] SMTP Debug: SERVER -> CLIENT: 334 UGFzc3dvcmQ6
+
+[06-Feb-2025 16:19:23 Europe/Moscow] SMTP Debug: CLIENT -> SERVER: [credentials hidden]
+[06-Feb-2025 16:19:23 Europe/Moscow] SMTP Debug: SERVER -> CLIENT: 235 Authentication succeeded
+
+[06-Feb-2025 16:19:23 Europe/Moscow] SMTP Debug: CLIENT -> SERVER: MAIL FROM:<89851007873@mail.ru>
+
+[06-Feb-2025 16:19:23 Europe/Moscow] SMTP Debug: SERVER -> CLIENT: 250 OK
+
+[06-Feb-2025 16:19:23 Europe/Moscow] SMTP Debug: CLIENT -> SERVER: RCPT TO:<89851007873@mail.ru>
+
+[06-Feb-2025 16:19:23 Europe/Moscow] SMTP Debug: SERVER -> CLIENT: 250 Accepted
+
+[06-Feb-2025 16:19:23 Europe/Moscow] SMTP Debug: CLIENT -> SERVER: DATA
+
+[06-Feb-2025 16:19:23 Europe/Moscow] SMTP Debug: SERVER -> CLIENT: 354 Enter message, ending with "." on a line by itself
+
+[06-Feb-2025 16:19:23 Europe/Moscow] SMTP Debug: CLIENT -> SERVER: Date: Thu, 6 Feb 2025 16:19:23 +0300
+
+[06-Feb-2025 16:19:23 Europe/Moscow] SMTP Debug: CLIENT -> SERVER: To: 89851007873@mail.ru
+
+[06-Feb-2025 16:19:23 Europe/Moscow] SMTP Debug: CLIENT -> SERVER: From: Contact Form <89851007873@mail.ru>
+
+[06-Feb-2025 16:19:23 Europe/Moscow] SMTP Debug: CLIENT -> SERVER: Subject: =?UTF-8?B?0J3QvtCy0L7QtSDRgdC+0L7QsdGJ0LXQvdC40LUg0YEg0YHQsNC50YLQsA==?=
+
+[06-Feb-2025 16:19:23 Europe/Moscow] SMTP Debug: CLIENT -> SERVER: Message-ID: <Tem76kRyQR1IPWStsF3FMYYsdUqmV7sl6VLZN3N4Y@xn--24-6kcaz7dcmfq.xn--p1ai>
+
+[06-Feb-2025 16:19:23 Europe/Moscow] SMTP Debug: CLIENT -> SERVER: X-Mailer: PHPMailer 6.9.3 (https://github.com/PHPMailer/PHPMailer)
+
+[06-Feb-2025 16:19:23 Europe/Moscow] SMTP Debug: CLIENT -> SERVER: MIME-Version: 1.0
+
+[06-Feb-2025 16:19:23 Europe/Moscow] SMTP Debug: CLIENT -> SERVER: Content-Type: text/html; charset=UTF-8
+
+[06-Feb-2025 16:19:23 Europe/Moscow] SMTP Debug: CLIENT -> SERVER: Content-Transfer-Encoding: 8bit
+
+[06-Feb-2025 16:19:23 Europe/Moscow] SMTP Debug: CLIENT -> SERVER: 
+
+[06-Feb-2025 16:19:23 Europe/Moscow] SMTP Debug: CLIENT -> SERVER: 
+
+[06-Feb-2025 16:19:23 Europe/Moscow] SMTP Debug: CLIENT -> SERVER:             <h2>Новое сообщение с формы обратной связи</h2>
+
+[06-Feb-2025 16:19:23 Europe/Moscow] SMTP Debug: CLIENT -> SERVER:             <p><strong>Имя:</strong> Аркадий</p>
+
+[06-Feb-2025 16:19:23 Europe/Moscow] SMTP Debug: CLIENT -> SERVER:             <p><strong>Номер телефона:</strong> 84956499293@mail.ru</p>
+
+[06-Feb-2025 16:19:23 Europe/Moscow] SMTP Debug: CLIENT -> SERVER:             <p><strong>Сообщение:</strong><br>виа</p>
+
+[06-Feb-2025 16:19:23 Europe/Moscow] SMTP Debug: CLIENT -> SERVER:         
+
+[06-Feb-2025 16:19:23 Europe/Moscow] SMTP Debug: CLIENT -> SERVER: 
+
+[06-Feb-2025 16:19:23 Europe/Moscow] SMTP Debug: CLIENT -> SERVER: .
+
+[06-Feb-2025 16:19:24 Europe/Moscow] SMTP Debug: SERVER -> CLIENT: 250 OK id=1tg1mt-00000000G8x-4Agi
+
+[06-Feb-2025 16:19:24 Europe/Moscow] SMTP Debug: CLIENT -> SERVER: RSET
+
+[06-Feb-2025 16:19:24 Europe/Moscow] SMTP Debug: SERVER -> CLIENT: 250 Reset OK
+
+[06-Feb-2025 16:19:24 Europe/Moscow] SMTP Debug: CLIENT -> SERVER: QUIT
+
+[06-Feb-2025 16:19:24 Europe/Moscow] SMTP Debug: SERVER -> CLIENT: 221 exim-smtp-6d97ff8cf4-5sh5d closing connection
+
+[06-Feb-2025 16:19:48 Europe/Moscow] Received input: {"name":"Аркадий","email":"84956499293@mail.ru","message":"яваи"}
+[06-Feb-2025 16:19:48 Europe/Moscow] SMTP Debug: SERVER -> CLIENT: 220 smtp.mail.ru ESMTP ready (Looking for Mail for your domain? Visit https://biz.mail.ru)
+
+[06-Feb-2025 16:19:48 Europe/Moscow] SMTP Debug: CLIENT -> SERVER: EHLO xn--24-6kcaz7dcmfq.xn--p1ai
+
+[06-Feb-2025 16:19:48 Europe/Moscow] SMTP Debug: SERVER -> CLIENT: 250-smtp.mail.ru
+250-SIZE 73400320
+250-8BITMIME
+250-DSN
+250-SMTPUTF8
+250 AUTH PLAIN LOGIN XOAUTH2
+
+[06-Feb-2025 16:19:48 Europe/Moscow] SMTP Debug: CLIENT -> SERVER: AUTH LOGIN
+
+[06-Feb-2025 16:19:48 Europe/Moscow] SMTP Debug: SERVER -> CLIENT: 334 VXNlcm5hbWU6
+
+[06-Feb-2025 16:19:48 Europe/Moscow] SMTP Debug: CLIENT -> SERVER: [credentials hidden]
+[06-Feb-2025 16:19:48 Europe/Moscow] SMTP Debug: SERVER -> CLIENT: 334 UGFzc3dvcmQ6
+
+[06-Feb-2025 16:19:48 Europe/Moscow] SMTP Debug: CLIENT -> SERVER: [credentials hidden]
+[06-Feb-2025 16:19:48 Europe/Moscow] SMTP Debug: SERVER -> CLIENT: 235 Authentication succeeded
+
+[06-Feb-2025 16:19:48 Europe/Moscow] SMTP Debug: CLIENT -> SERVER: MAIL FROM:<89851007873@mail.ru>
+
+[06-Feb-2025 16:19:48 Europe/Moscow] SMTP Debug: SERVER -> CLIENT: 250 OK
+
+[06-Feb-2025 16:19:48 Europe/Moscow] SMTP Debug: CLIENT -> SERVER: RCPT TO:<89851007873@mail.ru>
+
+[06-Feb-2025 16:19:48 Europe/Moscow] SMTP Debug: SERVER -> CLIENT: 250 Accepted
+
+[06-Feb-2025 16:19:48 Europe/Moscow] SMTP Debug: CLIENT -> SERVER: DATA
+
+[06-Feb-2025 16:19:48 Europe/Moscow] SMTP Debug: SERVER -> CLIENT: 354 Enter message, ending with "." on a line by itself
+
+[06-Feb-2025 16:19:48 Europe/Moscow] SMTP Debug: CLIENT -> SERVER: Date: Thu, 6 Feb 2025 16:19:48 +0300
+
+[06-Feb-2025 16:19:48 Europe/Moscow] SMTP Debug: CLIENT -> SERVER: To: 89851007873@mail.ru
+
+[06-Feb-2025 16:19:48 Europe/Moscow] SMTP Debug: CLIENT -> SERVER: From: Contact Form <89851007873@mail.ru>
+
+[06-Feb-2025 16:19:48 Europe/Moscow] SMTP Debug: CLIENT -> SERVER: Subject: =?UTF-8?B?0J3QvtCy0L7QtSDRgdC+0L7QsdGJ0LXQvdC40LUg0YEg0YHQsNC50YLQsA==?=
+
+[06-Feb-2025 16:19:48 Europe/Moscow] SMTP Debug: CLIENT -> SERVER: Message-ID: <0mv1S1ePDWeco5k1Sar6FKLIB22XJqu8qRvTZ8fU@xn--24-6kcaz7dcmfq.xn--p1ai>
+
+[06-Feb-2025 16:19:48 Europe/Moscow] SMTP Debug: CLIENT -> SERVER: X-Mailer: PHPMailer 6.9.3 (https://github.com/PHPMailer/PHPMailer)
+
+[06-Feb-2025 16:19:48 Europe/Moscow] SMTP Debug: CLIENT -> SERVER: MIME-Version: 1.0
+
+[06-Feb-2025 16:19:48 Europe/Moscow] SMTP Debug: CLIENT -> SERVER: Content-Type: text/html; charset=UTF-8
+
+[06-Feb-2025 16:19:48 Europe/Moscow] SMTP Debug: CLIENT -> SERVER: Content-Transfer-Encoding: 8bit
+
+[06-Feb-2025 16:19:48 Europe/Moscow] SMTP Debug: CLIENT -> SERVER: 
+
+[06-Feb-2025 16:19:48 Europe/Moscow] SMTP Debug: CLIENT -> SERVER: 
+
+[06-Feb-2025 16:19:48 Europe/Moscow] SMTP Debug: CLIENT -> SERVER:             <h2>Новое сообщение с формы обратной связи</h2>
+
+[06-Feb-2025 16:19:48 Europe/Moscow] SMTP Debug: CLIENT -> SERVER:             <p><strong>Имя:</strong> Аркадий</p>
+
+[06-Feb-2025 16:19:48 Europe/Moscow] SMTP Debug: CLIENT -> SERVER:             <p><strong>Номер телефона:</strong> 84956499293@mail.ru</p>
+
+[06-Feb-2025 16:19:48 Europe/Moscow] SMTP Debug: CLIENT -> SERVER:             <p><strong>Сообщение:</strong><br>яваи</p>
+
+[06-Feb-2025 16:19:48 Europe/Moscow] SMTP Debug: CLIENT -> SERVER:         
+
+[06-Feb-2025 16:19:48 Europe/Moscow] SMTP Debug: CLIENT -> SERVER: 
+
+[06-Feb-2025 16:19:48 Europe/Moscow] SMTP Debug: CLIENT -> SERVER: .
+
+[06-Feb-2025 16:19:49 Europe/Moscow] SMTP Debug: SERVER -> CLIENT: 250 OK id=1tg1nI-00000000DL8-20Dq
+
+[06-Feb-2025 16:19:49 Europe/Moscow] SMTP Debug: CLIENT -> SERVER: RSET
+
+[06-Feb-2025 16:19:49 Europe/Moscow] SMTP Debug: SERVER -> CLIENT: 250 Reset OK
+
+[06-Feb-2025 16:19:49 Europe/Moscow] SMTP Debug: CLIENT -> SERVER: QUIT
+
+[06-Feb-2025 16:19:49 Europe/Moscow] SMTP Debug: SERVER -> CLIENT: 221 exim-smtp-6d97ff8cf4-c2q8q closing connection
+
+[06-Feb-2025 16:20:10 Europe/Moscow] Received input: {"name":"Аркадий","email":"84956499293@mail.ru","message":"укрр"}
+[06-Feb-2025 16:20:10 Europe/Moscow] SMTP Debug: SERVER -> CLIENT: 220 smtp.mail.ru ESMTP ready (Looking for Mail for your domain? Visit https://biz.mail.ru)
+
+[06-Feb-2025 16:20:10 Europe/Moscow] SMTP Debug: CLIENT -> SERVER: EHLO xn--24-6kcaz7dcmfq.xn--p1ai
+
+[06-Feb-2025 16:20:10 Europe/Moscow] SMTP Debug: SERVER -> CLIENT: 250-smtp.mail.ru
+250-SIZE 73400320
+250-8BITMIME
+250-DSN
+250-SMTPUTF8
+250 AUTH PLAIN LOGIN XOAUTH2
+
+[06-Feb-2025 16:20:10 Europe/Moscow] SMTP Debug: CLIENT -> SERVER: AUTH LOGIN
+
+[06-Feb-2025 16:20:10 Europe/Moscow] SMTP Debug: SERVER -> CLIENT: 334 VXNlcm5hbWU6
+
+[06-Feb-2025 16:20:10 Europe/Moscow] SMTP Debug: CLIENT -> SERVER: [credentials hidden]
+[06-Feb-2025 16:20:10 Europe/Moscow] SMTP Debug: SERVER -> CLIENT: 334 UGFzc3dvcmQ6
+
+[06-Feb-2025 16:20:10 Europe/Moscow] SMTP Debug: CLIENT -> SERVER: [credentials hidden]
+[06-Feb-2025 16:20:10 Europe/Moscow] SMTP Debug: SERVER -> CLIENT: 235 Authentication succeeded
+
+[06-Feb-2025 16:20:10 Europe/Moscow] SMTP Debug: CLIENT -> SERVER: MAIL FROM:<89851007873@mail.ru>
+
+[06-Feb-2025 16:20:10 Europe/Moscow] SMTP Debug: SERVER -> CLIENT: 250 OK
+
+[06-Feb-2025 16:20:10 Europe/Moscow] SMTP Debug: CLIENT -> SERVER: RCPT TO:<89851007873@mail.ru>
+
+[06-Feb-2025 16:20:10 Europe/Moscow] SMTP Debug: SERVER -> CLIENT: 250 Accepted
+
+[06-Feb-2025 16:20:10 Europe/Moscow] SMTP Debug: CLIENT -> SERVER: DATA
+
+[06-Feb-2025 16:20:10 Europe/Moscow] SMTP Debug: SERVER -> CLIENT: 354 Enter message, ending with "." on a line by itself
+
+[06-Feb-2025 16:20:10 Europe/Moscow] SMTP Debug: CLIENT -> SERVER: Date: Thu, 6 Feb 2025 16:20:10 +0300
+
+[06-Feb-2025 16:20:10 Europe/Moscow] SMTP Debug: CLIENT -> SERVER: To: 89851007873@mail.ru
+
+[06-Feb-2025 16:20:10 Europe/Moscow] SMTP Debug: CLIENT -> SERVER: From: Contact Form <89851007873@mail.ru>
+
+[06-Feb-2025 16:20:10 Europe/Moscow] SMTP Debug: CLIENT -> SERVER: Subject: =?UTF-8?B?0J3QvtCy0L7QtSDRgdC+0L7QsdGJ0LXQvdC40LUg0YEg0YHQsNC50YLQsA==?=
+
+[06-Feb-2025 16:20:10 Europe/Moscow] SMTP Debug: CLIENT -> SERVER: Message-ID: <TEIwnVGNcvQx2JA5DAXomPK0gHnTWFy26Hbrh76VME@xn--24-6kcaz7dcmfq.xn--p1ai>
+
+[06-Feb-2025 16:20:10 Europe/Moscow] SMTP Debug: CLIENT -> SERVER: X-Mailer: PHPMailer 6.9.3 (https://github.com/PHPMailer/PHPMailer)
+
+[06-Feb-2025 16:20:10 Europe/Moscow] SMTP Debug: CLIENT -> SERVER: MIME-Version: 1.0
+
+[06-Feb-2025 16:20:10 Europe/Moscow] SMTP Debug: CLIENT -> SERVER: Content-Type: text/html; charset=UTF-8
+
+[06-Feb-2025 16:20:10 Europe/Moscow] SMTP Debug: CLIENT -> SERVER: Content-Transfer-Encoding: 8bit
+
+[06-Feb-2025 16:20:10 Europe/Moscow] SMTP Debug: CLIENT -> SERVER: 
+
+[06-Feb-2025 16:20:10 Europe/Moscow] SMTP Debug: CLIENT -> SERVER: 
+
+[06-Feb-2025 16:20:10 Europe/Moscow] SMTP Debug: CLIENT -> SERVER:             <h2>Новое сообщение с формы обратной связи</h2>
+
+[06-Feb-2025 16:20:10 Europe/Moscow] SMTP Debug: CLIENT -> SERVER:             <p><strong>Имя:</strong> Аркадий</p>
+
+[06-Feb-2025 16:20:10 Europe/Moscow] SMTP Debug: CLIENT -> SERVER:             <p><strong>Номер телефона:</strong> 84956499293@mail.ru</p>
+
+[06-Feb-2025 16:20:10 Europe/Moscow] SMTP Debug: CLIENT -> SERVER:             <p><strong>Сообщение:</strong><br>укрр</p>
+
+[06-Feb-2025 16:20:10 Europe/Moscow] SMTP Debug: CLIENT -> SERVER:         
+
+[06-Feb-2025 16:20:10 Europe/Moscow] SMTP Debug: CLIENT -> SERVER: 
+
+[06-Feb-2025 16:20:10 Europe/Moscow] SMTP Debug: CLIENT -> SERVER: .
+
+[06-Feb-2025 16:20:11 Europe/Moscow] SMTP Debug: SERVER -> CLIENT: 250 OK id=1tg1ne-00000000NCs-1xbf
+
+[06-Feb-2025 16:20:11 Europe/Moscow] SMTP Debug: CLIENT -> SERVER: RSET
+
+[06-Feb-2025 16:20:11 Europe/Moscow] SMTP Debug: SERVER -> CLIENT: 250 Reset OK
+
+[06-Feb-2025 16:20:11 Europe/Moscow] SMTP Debug: CLIENT -> SERVER: QUIT
+
+[06-Feb-2025 16:20:11 Europe/Moscow] SMTP Debug: SERVER -> CLIENT: 221 exim-smtp-6d97ff8cf4-2gqfx closing connection
+
+[07-Feb-2025 08:25:50 Europe/Moscow] Received input: {"name":"Аркадий","email":"ark2030@yandex.ru","message":"проба"}
+[07-Feb-2025 08:25:50 Europe/Moscow] SMTP Debug: SERVER -> CLIENT: 220 smtp.mail.ru ESMTP ready (Looking for Mail for your domain? Visit https://biz.mail.ru)
+
+[07-Feb-2025 08:25:50 Europe/Moscow] SMTP Debug: CLIENT -> SERVER: EHLO reklamaleader.ru
+
+[07-Feb-2025 08:25:50 Europe/Moscow] SMTP Debug: SERVER -> CLIENT: 250-smtp.mail.ru
+250-SIZE 73400320
+250-8BITMIME
+250-DSN
+250-SMTPUTF8
+250 AUTH PLAIN LOGIN XOAUTH2
+
+[07-Feb-2025 08:25:50 Europe/Moscow] SMTP Debug: CLIENT -> SERVER: AUTH LOGIN
+
+[07-Feb-2025 08:25:50 Europe/Moscow] SMTP Debug: SERVER -> CLIENT: 334 VXNlcm5hbWU6
+
+[07-Feb-2025 08:25:50 Europe/Moscow] SMTP Debug: CLIENT -> SERVER: [credentials hidden]
+[07-Feb-2025 08:25:50 Europe/Moscow] SMTP Debug: SERVER -> CLIENT: 334 UGFzc3dvcmQ6
+
+[07-Feb-2025 08:25:50 Europe/Moscow] SMTP Debug: CLIENT -> SERVER: [credentials hidden]
+[07-Feb-2025 08:25:50 Europe/Moscow] SMTP Debug: SERVER -> CLIENT: 235 Authentication succeeded
+
+[07-Feb-2025 08:25:50 Europe/Moscow] SMTP Debug: CLIENT -> SERVER: MAIL FROM:<89851007873@mail.ru>
+
+[07-Feb-2025 08:25:50 Europe/Moscow] SMTP Debug: SERVER -> CLIENT: 250 OK
+
+[07-Feb-2025 08:25:50 Europe/Moscow] SMTP Debug: CLIENT -> SERVER: RCPT TO:<89851007873@mail.ru>
+
+[07-Feb-2025 08:25:50 Europe/Moscow] SMTP Debug: SERVER -> CLIENT: 250 Accepted
+
+[07-Feb-2025 08:25:50 Europe/Moscow] SMTP Debug: CLIENT -> SERVER: DATA
+
+[07-Feb-2025 08:25:50 Europe/Moscow] SMTP Debug: SERVER -> CLIENT: 354 Enter message, ending with "." on a line by itself
+
+[07-Feb-2025 08:25:50 Europe/Moscow] SMTP Debug: CLIENT -> SERVER: Date: Fri, 7 Feb 2025 08:25:50 +0300
+
+[07-Feb-2025 08:25:50 Europe/Moscow] SMTP Debug: CLIENT -> SERVER: To: 89851007873@mail.ru
+
+[07-Feb-2025 08:25:50 Europe/Moscow] SMTP Debug: CLIENT -> SERVER: From: Contact Form <89851007873@mail.ru>
+
+[07-Feb-2025 08:25:50 Europe/Moscow] SMTP Debug: CLIENT -> SERVER: Subject: =?UTF-8?B?0J3QvtCy0L7QtSDRgdC+0L7QsdGJ0LXQvdC40LUg0YEg0YHQsNC50YLQsA==?=
+
+[07-Feb-2025 08:25:50 Europe/Moscow] SMTP Debug: CLIENT -> SERVER: Message-ID: <OjMGW9joN4MsZFt1iIEzY4shQKmQ1qnsiAmradCg@reklamaleader.ru>
+
+[07-Feb-2025 08:25:50 Europe/Moscow] SMTP Debug: CLIENT -> SERVER: X-Mailer: PHPMailer 6.9.3 (https://github.com/PHPMailer/PHPMailer)
+
+[07-Feb-2025 08:25:50 Europe/Moscow] SMTP Debug: CLIENT -> SERVER: MIME-Version: 1.0
+
+[07-Feb-2025 08:25:50 Europe/Moscow] SMTP Debug: CLIENT -> SERVER: Content-Type: text/html; charset=UTF-8
+
+[07-Feb-2025 08:25:50 Europe/Moscow] SMTP Debug: CLIENT -> SERVER: Content-Transfer-Encoding: 8bit
+
+[07-Feb-2025 08:25:50 Europe/Moscow] SMTP Debug: CLIENT -> SERVER: 
+
+[07-Feb-2025 08:25:50 Europe/Moscow] SMTP Debug: CLIENT -> SERVER: 
+
+[07-Feb-2025 08:25:50 Europe/Moscow] SMTP Debug: CLIENT -> SERVER:             <h2>Новое сообщение с формы обратной связи</h2>
+
+[07-Feb-2025 08:25:50 Europe/Moscow] SMTP Debug: CLIENT -> SERVER:             <p><strong>Имя:</strong> Аркадий</p>
+
+[07-Feb-2025 08:25:50 Europe/Moscow] SMTP Debug: CLIENT -> SERVER:             <p><strong>Номер телефона:</strong> ark2030@yandex.ru</p>
+
+[07-Feb-2025 08:25:50 Europe/Moscow] SMTP Debug: CLIENT -> SERVER:             <p><strong>Сообщение:</strong><br>проба</p>
+
+[07-Feb-2025 08:25:50 Europe/Moscow] SMTP Debug: CLIENT -> SERVER:         
+
+[07-Feb-2025 08:25:50 Europe/Moscow] SMTP Debug: CLIENT -> SERVER: 
+
+[07-Feb-2025 08:25:50 Europe/Moscow] SMTP Debug: CLIENT -> SERVER: .
+
+[07-Feb-2025 08:25:51 Europe/Moscow] SMTP Debug: SERVER -> CLIENT: 250 OK id=1tgGsA-000000002i8-2LKX
+
+[07-Feb-2025 08:25:51 Europe/Moscow] SMTP Debug: CLIENT -> SERVER: RSET
+
+[07-Feb-2025 08:25:51 Europe/Moscow] SMTP Debug: SERVER -> CLIENT: 250 Reset OK
+
+[07-Feb-2025 08:25:51 Europe/Moscow] SMTP Debug: CLIENT -> SERVER: QUIT
+
+[07-Feb-2025 08:25:51 Europe/Moscow] SMTP Debug: SERVER -> CLIENT: 221 exim-smtp-5c664d6544-4jf8b closing connection
+
+[07-Feb-2025 08:28:08 Europe/Moscow] Received input: {"name":"Ас","email":"Ark2030@yandex.ru","message":"Проба"}
+[07-Feb-2025 08:28:08 Europe/Moscow] SMTP Debug: SERVER -> CLIENT: 220 smtp.mail.ru ESMTP ready (Looking for Mail for your domain? Visit https://biz.mail.ru)
+
+[07-Feb-2025 08:28:08 Europe/Moscow] SMTP Debug: CLIENT -> SERVER: EHLO reklamaleader.ru
+
+[07-Feb-2025 08:28:08 Europe/Moscow] SMTP Debug: SERVER -> CLIENT: 250-smtp.mail.ru
+250-SIZE 73400320
+250-8BITMIME
+250-DSN
+250-SMTPUTF8
+250 AUTH PLAIN LOGIN XOAUTH2
+
+[07-Feb-2025 08:28:08 Europe/Moscow] SMTP Debug: CLIENT -> SERVER: AUTH LOGIN
+
+[07-Feb-2025 08:28:08 Europe/Moscow] SMTP Debug: SERVER -> CLIENT: 334 VXNlcm5hbWU6
+
+[07-Feb-2025 08:28:08 Europe/Moscow] SMTP Debug: CLIENT -> SERVER: [credentials hidden]
+[07-Feb-2025 08:28:08 Europe/Moscow] SMTP Debug: SERVER -> CLIENT: 334 UGFzc3dvcmQ6
+
+[07-Feb-2025 08:28:08 Europe/Moscow] SMTP Debug: CLIENT -> SERVER: [credentials hidden]
+[07-Feb-2025 08:28:08 Europe/Moscow] SMTP Debug: SERVER -> CLIENT: 235 Authentication succeeded
+
+[07-Feb-2025 08:28:08 Europe/Moscow] SMTP Debug: CLIENT -> SERVER: MAIL FROM:<89851007873@mail.ru>
+
+[07-Feb-2025 08:28:08 Europe/Moscow] SMTP Debug: SERVER -> CLIENT: 250 OK
+
+[07-Feb-2025 08:28:08 Europe/Moscow] SMTP Debug: CLIENT -> SERVER: RCPT TO:<89851007873@mail.ru>
+
+[07-Feb-2025 08:28:08 Europe/Moscow] SMTP Debug: SERVER -> CLIENT: 250 Accepted
+
+[07-Feb-2025 08:28:08 Europe/Moscow] SMTP Debug: CLIENT -> SERVER: DATA
+
+[07-Feb-2025 08:28:08 Europe/Moscow] SMTP Debug: SERVER -> CLIENT: 354 Enter message, ending with "." on a line by itself
+
+[07-Feb-2025 08:28:08 Europe/Moscow] SMTP Debug: CLIENT -> SERVER: Date: Fri, 7 Feb 2025 08:28:08 +0300
+
+[07-Feb-2025 08:28:08 Europe/Moscow] SMTP Debug: CLIENT -> SERVER: To: 89851007873@mail.ru
+
+[07-Feb-2025 08:28:08 Europe/Moscow] SMTP Debug: CLIENT -> SERVER: From: Contact Form <89851007873@mail.ru>
+
+[07-Feb-2025 08:28:08 Europe/Moscow] SMTP Debug: CLIENT -> SERVER: Subject: =?UTF-8?B?0J3QvtCy0L7QtSDRgdC+0L7QsdGJ0LXQvdC40LUg0YEg0YHQsNC50YLQsA==?=
+
+[07-Feb-2025 08:28:08 Europe/Moscow] SMTP Debug: CLIENT -> SERVER: Message-ID: <j1GcW9iSGHiVx80HT8qMXoQ881FOIZNFb6adserGtow@reklamaleader.ru>
+
+[07-Feb-2025 08:28:08 Europe/Moscow] SMTP Debug: CLIENT -> SERVER: X-Mailer: PHPMailer 6.9.3 (https://github.com/PHPMailer/PHPMailer)
+
+[07-Feb-2025 08:28:08 Europe/Moscow] SMTP Debug: CLIENT -> SERVER: MIME-Version: 1.0
+
+[07-Feb-2025 08:28:08 Europe/Moscow] SMTP Debug: CLIENT -> SERVER: Content-Type: text/html; charset=UTF-8
+
+[07-Feb-2025 08:28:08 Europe/Moscow] SMTP Debug: CLIENT -> SERVER: Content-Transfer-Encoding: 8bit
+
+[07-Feb-2025 08:28:08 Europe/Moscow] SMTP Debug: CLIENT -> SERVER: 
+
+[07-Feb-2025 08:28:08 Europe/Moscow] SMTP Debug: CLIENT -> SERVER: 
+
+[07-Feb-2025 08:28:08 Europe/Moscow] SMTP Debug: CLIENT -> SERVER:             <h2>Новое сообщение с формы обратной связи</h2>
+
+[07-Feb-2025 08:28:08 Europe/Moscow] SMTP Debug: CLIENT -> SERVER:             <p><strong>Имя:</strong> Ас</p>
+
+[07-Feb-2025 08:28:08 Europe/Moscow] SMTP Debug: CLIENT -> SERVER:             <p><strong>Номер телефона:</strong> Ark2030@yandex.ru</p>
+
+[07-Feb-2025 08:28:08 Europe/Moscow] SMTP Debug: CLIENT -> SERVER:             <p><strong>Сообщение:</strong><br>Проба</p>
+
+[07-Feb-2025 08:28:08 Europe/Moscow] SMTP Debug: CLIENT -> SERVER:         
+
+[07-Feb-2025 08:28:08 Europe/Moscow] SMTP Debug: CLIENT -> SERVER: 
+
+[07-Feb-2025 08:28:08 Europe/Moscow] SMTP Debug: CLIENT -> SERVER: .
+
+[07-Feb-2025 08:28:09 Europe/Moscow] SMTP Debug: SERVER -> CLIENT: 250 OK id=1tgGuO-00000000AsF-3l79
+
+[07-Feb-2025 08:28:09 Europe/Moscow] SMTP Debug: CLIENT -> SERVER: RSET
+
+[07-Feb-2025 08:28:09 Europe/Moscow] SMTP Debug: SERVER -> CLIENT: 250 Reset OK
+
+[07-Feb-2025 08:28:09 Europe/Moscow] SMTP Debug: CLIENT -> SERVER: QUIT
+
+[07-Feb-2025 08:28:09 Europe/Moscow] SMTP Debug: SERVER -> CLIENT: 221 exim-smtp-5c664d6544-ss2jv closing connection
+
+[07-Feb-2025 08:28:40 Europe/Moscow] Received input: {"name":"Аркадий","email":"ark2030@yandex.ru","message":"проба\n"}
+[07-Feb-2025 08:28:40 Europe/Moscow] SMTP Debug: SERVER -> CLIENT: 220 smtp.mail.ru ESMTP ready (Looking for Mail for your domain? Visit https://biz.mail.ru)
+
+[07-Feb-2025 08:28:40 Europe/Moscow] SMTP Debug: CLIENT -> SERVER: EHLO reklamaleader.ru
+
+[07-Feb-2025 08:28:40 Europe/Moscow] SMTP Debug: SERVER -> CLIENT: 250-smtp.mail.ru
+250-SIZE 73400320
+250-8BITMIME
+250-DSN
+250-SMTPUTF8
+250 AUTH PLAIN LOGIN XOAUTH2
+
+[07-Feb-2025 08:28:40 Europe/Moscow] SMTP Debug: CLIENT -> SERVER: AUTH LOGIN
+
+[07-Feb-2025 08:28:40 Europe/Moscow] SMTP Debug: SERVER -> CLIENT: 334 VXNlcm5hbWU6
+
+[07-Feb-2025 08:28:40 Europe/Moscow] SMTP Debug: CLIENT -> SERVER: [credentials hidden]
+[07-Feb-2025 08:28:40 Europe/Moscow] SMTP Debug: SERVER -> CLIENT: 334 UGFzc3dvcmQ6
+
+[07-Feb-2025 08:28:40 Europe/Moscow] SMTP Debug: CLIENT -> SERVER: [credentials hidden]
+[07-Feb-2025 08:28:40 Europe/Moscow] SMTP Debug: SERVER -> CLIENT: 235 Authentication succeeded
+
+[07-Feb-2025 08:28:40 Europe/Moscow] SMTP Debug: CLIENT -> SERVER: MAIL FROM:<89851007873@mail.ru>
+
+[07-Feb-2025 08:28:40 Europe/Moscow] SMTP Debug: SERVER -> CLIENT: 250 OK
+
+[07-Feb-2025 08:28:40 Europe/Moscow] SMTP Debug: CLIENT -> SERVER: RCPT TO:<89851007873@mail.ru>
+
+[07-Feb-2025 08:28:40 Europe/Moscow] SMTP Debug: SERVER -> CLIENT: 250 Accepted
+
+[07-Feb-2025 08:28:40 Europe/Moscow] SMTP Debug: CLIENT -> SERVER: DATA
+
+[07-Feb-2025 08:28:40 Europe/Moscow] SMTP Debug: SERVER -> CLIENT: 354 Enter message, ending with "." on a line by itself
+
+[07-Feb-2025 08:28:40 Europe/Moscow] SMTP Debug: CLIENT -> SERVER: Date: Fri, 7 Feb 2025 08:28:40 +0300
+
+[07-Feb-2025 08:28:40 Europe/Moscow] SMTP Debug: CLIENT -> SERVER: To: 89851007873@mail.ru
+
+[07-Feb-2025 08:28:40 Europe/Moscow] SMTP Debug: CLIENT -> SERVER: From: Contact Form <89851007873@mail.ru>
+
+[07-Feb-2025 08:28:40 Europe/Moscow] SMTP Debug: CLIENT -> SERVER: Subject: =?UTF-8?B?0J3QvtCy0L7QtSDRgdC+0L7QsdGJ0LXQvdC40LUg0YEg0YHQsNC50YLQsA==?=
+
+[07-Feb-2025 08:28:40 Europe/Moscow] SMTP Debug: CLIENT -> SERVER: Message-ID: <AO8l3W2ilsORYjDuh3bEjaNxqYmHWs9LvST1JfnUEpQ@reklamaleader.ru>
+
+[07-Feb-2025 08:28:40 Europe/Moscow] SMTP Debug: CLIENT -> SERVER: X-Mailer: PHPMailer 6.9.3 (https://github.com/PHPMailer/PHPMailer)
+
+[07-Feb-2025 08:28:40 Europe/Moscow] SMTP Debug: CLIENT -> SERVER: MIME-Version: 1.0
+
+[07-Feb-2025 08:28:40 Europe/Moscow] SMTP Debug: CLIENT -> SERVER: Content-Type: text/html; charset=UTF-8
+
+[07-Feb-2025 08:28:40 Europe/Moscow] SMTP Debug: CLIENT -> SERVER: Content-Transfer-Encoding: 8bit
+
+[07-Feb-2025 08:28:40 Europe/Moscow] SMTP Debug: CLIENT -> SERVER: 
+
+[07-Feb-2025 08:28:40 Europe/Moscow] SMTP Debug: CLIENT -> SERVER: 
+
+[07-Feb-2025 08:28:40 Europe/Moscow] SMTP Debug: CLIENT -> SERVER:             <h2>Новое сообщение с формы обратной связи</h2>
+
+[07-Feb-2025 08:28:40 Europe/Moscow] SMTP Debug: CLIENT -> SERVER:             <p><strong>Имя:</strong> Аркадий</p>
+
+[07-Feb-2025 08:28:40 Europe/Moscow] SMTP Debug: CLIENT -> SERVER:             <p><strong>Номер телефона:</strong> ark2030@yandex.ru</p>
+
+[07-Feb-2025 08:28:40 Europe/Moscow] SMTP Debug: CLIENT -> SERVER:             <p><strong>Сообщение:</strong><br>проба<br />
+
+[07-Feb-2025 08:28:40 Europe/Moscow] SMTP Debug: CLIENT -> SERVER: </p>
+
+[07-Feb-2025 08:28:40 Europe/Moscow] SMTP Debug: CLIENT -> SERVER:         
+
+[07-Feb-2025 08:28:40 Europe/Moscow] SMTP Debug: CLIENT -> SERVER: 
+
+[07-Feb-2025 08:28:40 Europe/Moscow] SMTP Debug: CLIENT -> SERVER: .
+
+[07-Feb-2025 08:28:40 Europe/Moscow] SMTP Debug: SERVER -> CLIENT: 250 OK id=1tgGuu-000000001ML-1HDA
+
+[07-Feb-2025 08:28:40 Europe/Moscow] SMTP Debug: CLIENT -> SERVER: RSET
+
+[07-Feb-2025 08:28:40 Europe/Moscow] SMTP Debug: SERVER -> CLIENT: 250 Reset OK
+
+[07-Feb-2025 08:28:40 Europe/Moscow] SMTP Debug: CLIENT -> SERVER: QUIT
+
+[07-Feb-2025 08:28:41 Europe/Moscow] SMTP Debug: SERVER -> CLIENT: 221 exim-smtp-5c664d6544-rgt75 closing connection
+
+[07-Feb-2025 10:40:56 Europe/Moscow] Received input: {"name":"Ас","email":"Ark2030@yandex.ru","message":"Gfsa"}
+[07-Feb-2025 10:40:56 Europe/Moscow] SMTP Debug: SERVER -> CLIENT: 220 smtp.mail.ru ESMTP ready (Looking for Mail for your domain? Visit https://biz.mail.ru)
+
+[07-Feb-2025 10:40:56 Europe/Moscow] SMTP Debug: CLIENT -> SERVER: EHLO reklamaleader.ru
+
+[07-Feb-2025 10:40:56 Europe/Moscow] SMTP Debug: SERVER -> CLIENT: 250-smtp.mail.ru
+250-SIZE 73400320
+250-8BITMIME
+250-DSN
+250-SMTPUTF8
+250 AUTH PLAIN LOGIN XOAUTH2
+
+[07-Feb-2025 10:40:56 Europe/Moscow] SMTP Debug: CLIENT -> SERVER: AUTH LOGIN
+
+[07-Feb-2025 10:40:56 Europe/Moscow] SMTP Debug: SERVER -> CLIENT: 334 VXNlcm5hbWU6
+
+[07-Feb-2025 10:40:56 Europe/Moscow] SMTP Debug: CLIENT -> SERVER: [credentials hidden]
+[07-Feb-2025 10:40:56 Europe/Moscow] SMTP Debug: SERVER -> CLIENT: 334 UGFzc3dvcmQ6
+
+[07-Feb-2025 10:40:56 Europe/Moscow] SMTP Debug: CLIENT -> SERVER: [credentials hidden]
+[07-Feb-2025 10:40:56 Europe/Moscow] SMTP Debug: SERVER -> CLIENT: 235 Authentication succeeded
+
+[07-Feb-2025 10:40:56 Europe/Moscow] SMTP Debug: CLIENT -> SERVER: MAIL FROM:<89851007873@mail.ru>
+
+[07-Feb-2025 10:40:56 Europe/Moscow] SMTP Debug: SERVER -> CLIENT: 250 OK
+
+[07-Feb-2025 10:40:56 Europe/Moscow] SMTP Debug: CLIENT -> SERVER: RCPT TO:<89851007873@mail.ru>
+
+[07-Feb-2025 10:40:56 Europe/Moscow] SMTP Debug: SERVER -> CLIENT: 250 Accepted
+
+[07-Feb-2025 10:40:56 Europe/Moscow] SMTP Debug: CLIENT -> SERVER: DATA
+
+[07-Feb-2025 10:40:56 Europe/Moscow] SMTP Debug: SERVER -> CLIENT: 354 Enter message, ending with "." on a line by itself
+
+[07-Feb-2025 10:40:56 Europe/Moscow] SMTP Debug: CLIENT -> SERVER: Date: Fri, 7 Feb 2025 10:40:56 +0300
+
+[07-Feb-2025 10:40:56 Europe/Moscow] SMTP Debug: CLIENT -> SERVER: To: 89851007873@mail.ru
+
+[07-Feb-2025 10:40:56 Europe/Moscow] SMTP Debug: CLIENT -> SERVER: From: Contact Form <89851007873@mail.ru>
+
+[07-Feb-2025 10:40:56 Europe/Moscow] SMTP Debug: CLIENT -> SERVER: Subject: =?UTF-8?B?0J3QvtCy0L7QtSDRgdC+0L7QsdGJ0LXQvdC40LUg0YEg0YHQsNC50YLQsA==?=
+
+[07-Feb-2025 10:40:56 Europe/Moscow] SMTP Debug: CLIENT -> SERVER: Message-ID: <UdZfJjCADVc4cKXLsDSaeTCDOPQxRgYPszQzN80M4@reklamaleader.ru>
+
+[07-Feb-2025 10:40:56 Europe/Moscow] SMTP Debug: CLIENT -> SERVER: X-Mailer: PHPMailer 6.9.3 (https://github.com/PHPMailer/PHPMailer)
+
+[07-Feb-2025 10:40:56 Europe/Moscow] SMTP Debug: CLIENT -> SERVER: MIME-Version: 1.0
+
+[07-Feb-2025 10:40:56 Europe/Moscow] SMTP Debug: CLIENT -> SERVER: Content-Type: text/html; charset=UTF-8
+
+[07-Feb-2025 10:40:56 Europe/Moscow] SMTP Debug: CLIENT -> SERVER: Content-Transfer-Encoding: 8bit
+
+[07-Feb-2025 10:40:56 Europe/Moscow] SMTP Debug: CLIENT -> SERVER: 
+
+[07-Feb-2025 10:40:56 Europe/Moscow] SMTP Debug: CLIENT -> SERVER: 
+
+[07-Feb-2025 10:40:56 Europe/Moscow] SMTP Debug: CLIENT -> SERVER:             <h2>Новое сообщение с формы обратной связи</h2>
+
+[07-Feb-2025 10:40:56 Europe/Moscow] SMTP Debug: CLIENT -> SERVER:             <p><strong>Имя:</strong> Ас</p>
+
+[07-Feb-2025 10:40:56 Europe/Moscow] SMTP Debug: CLIENT -> SERVER:             <p><strong>Номер телефона:</strong> Ark2030@yandex.ru</p>
+
+[07-Feb-2025 10:40:56 Europe/Moscow] SMTP Debug: CLIENT -> SERVER:             <p><strong>Сообщение:</strong><br>Gfsa</p>
+
+[07-Feb-2025 10:40:56 Europe/Moscow] SMTP Debug: CLIENT -> SERVER:         
+
+[07-Feb-2025 10:40:56 Europe/Moscow] SMTP Debug: CLIENT -> SERVER: 
+
+[07-Feb-2025 10:40:56 Europe/Moscow] SMTP Debug: CLIENT -> SERVER: .
+
+[07-Feb-2025 10:40:57 Europe/Moscow] SMTP Debug: SERVER -> CLIENT: 250 OK id=1tgIyu-0000000006F-2Ecm
+
+[07-Feb-2025 10:40:57 Europe/Moscow] SMTP Debug: CLIENT -> SERVER: RSET
+
+[07-Feb-2025 10:40:57 Europe/Moscow] SMTP Debug: SERVER -> CLIENT: 250 Reset OK
+
+[07-Feb-2025 10:40:57 Europe/Moscow] SMTP Debug: CLIENT -> SERVER: QUIT
+
+[07-Feb-2025 10:40:57 Europe/Moscow] SMTP Debug: SERVER -> CLIENT: 221 exim-smtp-5c664d6544-6ntzj closing connection
+
+[07-Feb-2025 16:10:04 Europe/Moscow] Received input: {"name":"Людмила","email":"89168865935","message":"Здравствуйте! Сколько стоит трафарет букв     let’s eat.   Прописными буквами?"}
+[07-Feb-2025 16:10:04 Europe/Moscow] SMTP Debug: SERVER -> CLIENT: 220 smtp.mail.ru ESMTP ready (Looking for Mail for your domain? Visit https://biz.mail.ru)
+
+[07-Feb-2025 16:10:04 Europe/Moscow] SMTP Debug: CLIENT -> SERVER: EHLO reklamaleader.ru
+
+[07-Feb-2025 16:10:04 Europe/Moscow] SMTP Debug: SERVER -> CLIENT: 250-smtp.mail.ru
+250-SIZE 73400320
+250-8BITMIME
+250-DSN
+250-SMTPUTF8
+250 AUTH PLAIN LOGIN XOAUTH2
+
+[07-Feb-2025 16:10:04 Europe/Moscow] SMTP Debug: CLIENT -> SERVER: AUTH LOGIN
+
+[07-Feb-2025 16:10:04 Europe/Moscow] SMTP Debug: SERVER -> CLIENT: 334 VXNlcm5hbWU6
+
+[07-Feb-2025 16:10:04 Europe/Moscow] SMTP Debug: CLIENT -> SERVER: [credentials hidden]
+[07-Feb-2025 16:10:04 Europe/Moscow] SMTP Debug: SERVER -> CLIENT: 334 UGFzc3dvcmQ6
+
+[07-Feb-2025 16:10:04 Europe/Moscow] SMTP Debug: CLIENT -> SERVER: [credentials hidden]
+[07-Feb-2025 16:10:04 Europe/Moscow] SMTP Debug: SERVER -> CLIENT: 235 Authentication succeeded
+
+[07-Feb-2025 16:10:04 Europe/Moscow] SMTP Debug: CLIENT -> SERVER: MAIL FROM:<89851007873@mail.ru>
+
+[07-Feb-2025 16:10:04 Europe/Moscow] SMTP Debug: SERVER -> CLIENT: 250 OK
+
+[07-Feb-2025 16:10:04 Europe/Moscow] SMTP Debug: CLIENT -> SERVER: RCPT TO:<89851007873@mail.ru>
+
+[07-Feb-2025 16:10:04 Europe/Moscow] SMTP Debug: SERVER -> CLIENT: 250 Accepted
+
+[07-Feb-2025 16:10:04 Europe/Moscow] SMTP Debug: CLIENT -> SERVER: DATA
+
+[07-Feb-2025 16:10:04 Europe/Moscow] SMTP Debug: SERVER -> CLIENT: 354 Enter message, ending with "." on a line by itself
+
+[07-Feb-2025 16:10:04 Europe/Moscow] SMTP Debug: CLIENT -> SERVER: Date: Fri, 7 Feb 2025 16:10:04 +0300
+
+[07-Feb-2025 16:10:04 Europe/Moscow] SMTP Debug: CLIENT -> SERVER: To: 89851007873@mail.ru
+
+[07-Feb-2025 16:10:04 Europe/Moscow] SMTP Debug: CLIENT -> SERVER: From: Contact Form <89851007873@mail.ru>
+
+[07-Feb-2025 16:10:04 Europe/Moscow] SMTP Debug: CLIENT -> SERVER: Subject: =?UTF-8?B?0J3QvtCy0L7QtSDRgdC+0L7QsdGJ0LXQvdC40LUg0YEg0YHQsNC50YLQsA==?=
+
+[07-Feb-2025 16:10:04 Europe/Moscow] SMTP Debug: CLIENT -> SERVER: Message-ID: <99lJ86O8r3ejC6cONTeGK04hHNceUEEdp06sbwiOoo@reklamaleader.ru>
+
+[07-Feb-2025 16:10:04 Europe/Moscow] SMTP Debug: CLIENT -> SERVER: X-Mailer: PHPMailer 6.9.3 (https://github.com/PHPMailer/PHPMailer)
+
+[07-Feb-2025 16:10:04 Europe/Moscow] SMTP Debug: CLIENT -> SERVER: MIME-Version: 1.0
+
+[07-Feb-2025 16:10:04 Europe/Moscow] SMTP Debug: CLIENT -> SERVER: Content-Type: text/html; charset=UTF-8
+
+[07-Feb-2025 16:10:04 Europe/Moscow] SMTP Debug: CLIENT -> SERVER: Content-Transfer-Encoding: 8bit
+
+[07-Feb-2025 16:10:04 Europe/Moscow] SMTP Debug: CLIENT -> SERVER: 
+
+[07-Feb-2025 16:10:04 Europe/Moscow] SMTP Debug: CLIENT -> SERVER: 
+
+[07-Feb-2025 16:10:04 Europe/Moscow] SMTP Debug: CLIENT -> SERVER:             <h2>Новое сообщение с формы обратной связи</h2>
+
+[07-Feb-2025 16:10:04 Europe/Moscow] SMTP Debug: CLIENT -> SERVER:             <p><strong>Имя:</strong> Людмила</p>
+
+[07-Feb-2025 16:10:04 Europe/Moscow] SMTP Debug: CLIENT -> SERVER:             <p><strong>Номер телефона:</strong> 89168865935</p>
+
+[07-Feb-2025 16:10:04 Europe/Moscow] SMTP Debug: CLIENT -> SERVER:             <p><strong>Сообщение:</strong><br>Здравствуйте! Сколько стоит трафарет букв     let’s eat.   Прописными буквами?</p>
+
+[07-Feb-2025 16:10:04 Europe/Moscow] SMTP Debug: CLIENT -> SERVER:         
+
+[07-Feb-2025 16:10:04 Europe/Moscow] SMTP Debug: CLIENT -> SERVER: 
+
+[07-Feb-2025 16:10:04 Europe/Moscow] SMTP Debug: CLIENT -> SERVER: .
+
+[07-Feb-2025 16:10:05 Europe/Moscow] SMTP Debug: SERVER -> CLIENT: 250 OK id=1tgO7Q-000000000t0-3Y7n
+
+[07-Feb-2025 16:10:05 Europe/Moscow] SMTP Debug: CLIENT -> SERVER: RSET
+
+[07-Feb-2025 16:10:05 Europe/Moscow] SMTP Debug: SERVER -> CLIENT: 250 Reset OK
+
+[07-Feb-2025 16:10:05 Europe/Moscow] SMTP Debug: CLIENT -> SERVER: QUIT
+
+[07-Feb-2025 16:10:05 Europe/Moscow] SMTP Debug: SERVER -> CLIENT: 221 exim-smtp-5c664d6544-8zls4 closing connection
+
+[09-Feb-2025 18:44:43 Europe/Moscow] Received input: {"name":"ИЛЬЯ","email":"9166113279","message":"ИЗГОТОВИТЬ М НОГОРАЗОВЫЙ ТРАФОРЕТ ПО РИСУНКУ"}
+[09-Feb-2025 18:44:43 Europe/Moscow] SMTP Debug: SERVER -> CLIENT: 220 smtp.mail.ru ESMTP ready (Looking for Mail for your domain? Visit https://biz.mail.ru)
+
+[09-Feb-2025 18:44:43 Europe/Moscow] SMTP Debug: CLIENT -> SERVER: EHLO reklamaleader.ru
+
+[09-Feb-2025 18:44:43 Europe/Moscow] SMTP Debug: SERVER -> CLIENT: 250-smtp.mail.ru
+250-SIZE 73400320
+250-8BITMIME
+250-DSN
+250-SMTPUTF8
+250 AUTH PLAIN LOGIN XOAUTH2
+
+[09-Feb-2025 18:44:43 Europe/Moscow] SMTP Debug: CLIENT -> SERVER: AUTH LOGIN
+
+[09-Feb-2025 18:44:43 Europe/Moscow] SMTP Debug: SERVER -> CLIENT: 334 VXNlcm5hbWU6
+
+[09-Feb-2025 18:44:43 Europe/Moscow] SMTP Debug: CLIENT -> SERVER: [credentials hidden]
+[09-Feb-2025 18:44:43 Europe/Moscow] SMTP Debug: SERVER -> CLIENT: 334 UGFzc3dvcmQ6
+
+[09-Feb-2025 18:44:43 Europe/Moscow] SMTP Debug: CLIENT -> SERVER: [credentials hidden]
+[09-Feb-2025 18:44:43 Europe/Moscow] SMTP Debug: SERVER -> CLIENT: 235 Authentication succeeded
+
+[09-Feb-2025 18:44:43 Europe/Moscow] SMTP Debug: CLIENT -> SERVER: MAIL FROM:<89851007873@mail.ru>
+
+[09-Feb-2025 18:44:43 Europe/Moscow] SMTP Debug: SERVER -> CLIENT: 250 OK
+
+[09-Feb-2025 18:44:43 Europe/Moscow] SMTP Debug: CLIENT -> SERVER: RCPT TO:<89851007873@mail.ru>
+
+[09-Feb-2025 18:44:43 Europe/Moscow] SMTP Debug: SERVER -> CLIENT: 250 Accepted
+
+[09-Feb-2025 18:44:43 Europe/Moscow] SMTP Debug: CLIENT -> SERVER: DATA
+
+[09-Feb-2025 18:44:43 Europe/Moscow] SMTP Debug: SERVER -> CLIENT: 354 Enter message, ending with "." on a line by itself
+
+[09-Feb-2025 18:44:43 Europe/Moscow] SMTP Debug: CLIENT -> SERVER: Date: Sun, 9 Feb 2025 18:44:43 +0300
+
+[09-Feb-2025 18:44:43 Europe/Moscow] SMTP Debug: CLIENT -> SERVER: To: 89851007873@mail.ru
+
+[09-Feb-2025 18:44:43 Europe/Moscow] SMTP Debug: CLIENT -> SERVER: From: Contact Form <89851007873@mail.ru>
+
+[09-Feb-2025 18:44:43 Europe/Moscow] SMTP Debug: CLIENT -> SERVER: Subject: =?UTF-8?B?0J3QvtCy0L7QtSDRgdC+0L7QsdGJ0LXQvdC40LUg0YEg0YHQsNC50YLQsA==?=
+
+[09-Feb-2025 18:44:43 Europe/Moscow] SMTP Debug: CLIENT -> SERVER: Message-ID: <NqI3dYkgr0uacxzTtSRWXfHmsGxjNCxEOL6oNvQkhC4@reklamaleader.ru>
+
+[09-Feb-2025 18:44:43 Europe/Moscow] SMTP Debug: CLIENT -> SERVER: X-Mailer: PHPMailer 6.9.3 (https://github.com/PHPMailer/PHPMailer)
+
+[09-Feb-2025 18:44:43 Europe/Moscow] SMTP Debug: CLIENT -> SERVER: MIME-Version: 1.0
+
+[09-Feb-2025 18:44:43 Europe/Moscow] SMTP Debug: CLIENT -> SERVER: Content-Type: text/html; charset=UTF-8
+
+[09-Feb-2025 18:44:43 Europe/Moscow] SMTP Debug: CLIENT -> SERVER: Content-Transfer-Encoding: 8bit
+
+[09-Feb-2025 18:44:43 Europe/Moscow] SMTP Debug: CLIENT -> SERVER: 
+
+[09-Feb-2025 18:44:43 Europe/Moscow] SMTP Debug: CLIENT -> SERVER: 
+
+[09-Feb-2025 18:44:43 Europe/Moscow] SMTP Debug: CLIENT -> SERVER:             <h2>Новое сообщение с формы обратной связи</h2>
+
+[09-Feb-2025 18:44:43 Europe/Moscow] SMTP Debug: CLIENT -> SERVER:             <p><strong>Имя:</strong> ИЛЬЯ</p>
+
+[09-Feb-2025 18:44:43 Europe/Moscow] SMTP Debug: CLIENT -> SERVER:             <p><strong>Номер телефона:</strong> 9166113279</p>
+
+[09-Feb-2025 18:44:43 Europe/Moscow] SMTP Debug: CLIENT -> SERVER:             <p><strong>Сообщение:</strong><br>ИЗГОТОВИТЬ М НОГОРАЗОВЫЙ ТРАФОРЕТ ПО РИСУНКУ</p>
+
+[09-Feb-2025 18:44:43 Europe/Moscow] SMTP Debug: CLIENT -> SERVER:         
+
+[09-Feb-2025 18:44:43 Europe/Moscow] SMTP Debug: CLIENT -> SERVER: 
+
+[09-Feb-2025 18:44:43 Europe/Moscow] SMTP Debug: CLIENT -> SERVER: .
+
+[09-Feb-2025 18:44:43 Europe/Moscow] SMTP Debug: SERVER -> CLIENT: 250 OK id=1th9UB-00000000IQ3-1p3z
+
+[09-Feb-2025 18:44:43 Europe/Moscow] SMTP Debug: CLIENT -> SERVER: RSET
+
+[09-Feb-2025 18:44:43 Europe/Moscow] SMTP Debug: SERVER -> CLIENT: 250 Reset OK
+
+[09-Feb-2025 18:44:43 Europe/Moscow] SMTP Debug: CLIENT -> SERVER: QUIT
+
+[09-Feb-2025 18:44:44 Europe/Moscow] SMTP Debug: SERVER -> CLIENT: 221 exim-smtp-5c664d6544-gw4p4 closing connection
+
+[09-Feb-2025 18:44:44 Europe/Moscow] Received input: {"name":"ИЛЬЯ","email":"9166113279","message":"ИЗГОТОВИТЬ М НОГОРАЗОВЫЙ ТРАФОРЕТ ПО РИСУНКУ"}
+[09-Feb-2025 18:44:44 Europe/Moscow] SMTP Debug: SERVER -> CLIENT: 220 smtp.mail.ru ESMTP ready (Looking for Mail for your domain? Visit https://biz.mail.ru)
+
+[09-Feb-2025 18:44:44 Europe/Moscow] SMTP Debug: CLIENT -> SERVER: EHLO reklamaleader.ru
+
+[09-Feb-2025 18:44:44 Europe/Moscow] SMTP Debug: SERVER -> CLIENT: 250-smtp.mail.ru
+250-SIZE 73400320
+250-8BITMIME
+250-DSN
+250-SMTPUTF8
+250 AUTH PLAIN LOGIN XOAUTH2
+
+[09-Feb-2025 18:44:44 Europe/Moscow] SMTP Debug: CLIENT -> SERVER: AUTH LOGIN
+
+[09-Feb-2025 18:44:44 Europe/Moscow] SMTP Debug: SERVER -> CLIENT: 334 VXNlcm5hbWU6
+
+[09-Feb-2025 18:44:44 Europe/Moscow] SMTP Debug: CLIENT -> SERVER: [credentials hidden]
+[09-Feb-2025 18:44:44 Europe/Moscow] SMTP Debug: SERVER -> CLIENT: 334 UGFzc3dvcmQ6
+
+[09-Feb-2025 18:44:44 Europe/Moscow] SMTP Debug: CLIENT -> SERVER: [credentials hidden]
+[09-Feb-2025 18:44:44 Europe/Moscow] SMTP Debug: SERVER -> CLIENT: 235 Authentication succeeded
+
+[09-Feb-2025 18:44:44 Europe/Moscow] SMTP Debug: CLIENT -> SERVER: MAIL FROM:<89851007873@mail.ru>
+
+[09-Feb-2025 18:44:44 Europe/Moscow] SMTP Debug: SERVER -> CLIENT: 250 OK
+
+[09-Feb-2025 18:44:44 Europe/Moscow] SMTP Debug: CLIENT -> SERVER: RCPT TO:<89851007873@mail.ru>
+
+[09-Feb-2025 18:44:44 Europe/Moscow] SMTP Debug: SERVER -> CLIENT: 250 Accepted
+
+[09-Feb-2025 18:44:44 Europe/Moscow] SMTP Debug: CLIENT -> SERVER: DATA
+
+[09-Feb-2025 18:44:44 Europe/Moscow] SMTP Debug: SERVER -> CLIENT: 354 Enter message, ending with "." on a line by itself
+
+[09-Feb-2025 18:44:44 Europe/Moscow] SMTP Debug: CLIENT -> SERVER: Date: Sun, 9 Feb 2025 18:44:44 +0300
+
+[09-Feb-2025 18:44:44 Europe/Moscow] SMTP Debug: CLIENT -> SERVER: To: 89851007873@mail.ru
+
+[09-Feb-2025 18:44:44 Europe/Moscow] SMTP Debug: CLIENT -> SERVER: From: Contact Form <89851007873@mail.ru>
+
+[09-Feb-2025 18:44:44 Europe/Moscow] SMTP Debug: CLIENT -> SERVER: Subject: =?UTF-8?B?0J3QvtCy0L7QtSDRgdC+0L7QsdGJ0LXQvdC40LUg0YEg0YHQsNC50YLQsA==?=
+
+[09-Feb-2025 18:44:44 Europe/Moscow] SMTP Debug: CLIENT -> SERVER: Message-ID: <1PrSItzu1jwmdUFscLr4zahuUhUsfq1kh7dx0miZc7c@reklamaleader.ru>
+
+[09-Feb-2025 18:44:44 Europe/Moscow] SMTP Debug: CLIENT -> SERVER: X-Mailer: PHPMailer 6.9.3 (https://github.com/PHPMailer/PHPMailer)
+
+[09-Feb-2025 18:44:44 Europe/Moscow] SMTP Debug: CLIENT -> SERVER: MIME-Version: 1.0
+
+[09-Feb-2025 18:44:44 Europe/Moscow] SMTP Debug: CLIENT -> SERVER: Content-Type: text/html; charset=UTF-8
+
+[09-Feb-2025 18:44:44 Europe/Moscow] SMTP Debug: CLIENT -> SERVER: Content-Transfer-Encoding: 8bit
+
+[09-Feb-2025 18:44:44 Europe/Moscow] SMTP Debug: CLIENT -> SERVER: 
+
+[09-Feb-2025 18:44:44 Europe/Moscow] SMTP Debug: CLIENT -> SERVER: 
+
+[09-Feb-2025 18:44:44 Europe/Moscow] SMTP Debug: CLIENT -> SERVER:             <h2>Новое сообщение с формы обратной связи</h2>
+
+[09-Feb-2025 18:44:44 Europe/Moscow] SMTP Debug: CLIENT -> SERVER:             <p><strong>Имя:</strong> ИЛЬЯ</p>
+
+[09-Feb-2025 18:44:44 Europe/Moscow] SMTP Debug: CLIENT -> SERVER:             <p><strong>Номер телефона:</strong> 9166113279</p>
+
+[09-Feb-2025 18:44:44 Europe/Moscow] SMTP Debug: CLIENT -> SERVER:             <p><strong>Сообщение:</strong><br>ИЗГОТОВИТЬ М НОГОРАЗОВЫЙ ТРАФОРЕТ ПО РИСУНКУ</p>
+
+[09-Feb-2025 18:44:44 Europe/Moscow] SMTP Debug: CLIENT -> SERVER:         
+
+[09-Feb-2025 18:44:44 Europe/Moscow] SMTP Debug: CLIENT -> SERVER: 
+
+[09-Feb-2025 18:44:44 Europe/Moscow] SMTP Debug: CLIENT -> SERVER: .
+
+[09-Feb-2025 18:44:45 Europe/Moscow] SMTP Debug: SERVER -> CLIENT: 250 OK id=1th9UC-000000001l0-3B9a
+
+[09-Feb-2025 18:44:45 Europe/Moscow] SMTP Debug: CLIENT -> SERVER: RSET
+
+[09-Feb-2025 18:44:45 Europe/Moscow] SMTP Debug: SERVER -> CLIENT: 250 Reset OK
+
+[09-Feb-2025 18:44:45 Europe/Moscow] SMTP Debug: CLIENT -> SERVER: QUIT
+
+[09-Feb-2025 18:44:45 Europe/Moscow] SMTP Debug: SERVER -> CLIENT: 221 exim-smtp-5c664d6544-44vwb closing connection
+
+[10-Feb-2025 20:19:36 Europe/Moscow] Received input: {"name":"Наталья","email":"89262831663","message":"Мне нужно заказать 1 трафарет с надписью, с вашим монтажом и покраской\n"}
+[10-Feb-2025 20:19:36 Europe/Moscow] SMTP Debug: SERVER -> CLIENT: 220 smtp.mail.ru ESMTP ready (Looking for Mail for your domain? Visit https://biz.mail.ru)
+
+[10-Feb-2025 20:19:36 Europe/Moscow] SMTP Debug: CLIENT -> SERVER: EHLO reklamaleader.ru
+
+[10-Feb-2025 20:19:36 Europe/Moscow] SMTP Debug: SERVER -> CLIENT: 250-smtp.mail.ru
+250-SIZE 73400320
+250-8BITMIME
+250-DSN
+250-SMTPUTF8
+250 AUTH PLAIN LOGIN XOAUTH2
+
+[10-Feb-2025 20:19:36 Europe/Moscow] SMTP Debug: CLIENT -> SERVER: AUTH LOGIN
+
+[10-Feb-2025 20:19:36 Europe/Moscow] SMTP Debug: SERVER -> CLIENT: 334 VXNlcm5hbWU6
+
+[10-Feb-2025 20:19:36 Europe/Moscow] SMTP Debug: CLIENT -> SERVER: [credentials hidden]
+[10-Feb-2025 20:19:36 Europe/Moscow] SMTP Debug: SERVER -> CLIENT: 334 UGFzc3dvcmQ6
+
+[10-Feb-2025 20:19:36 Europe/Moscow] SMTP Debug: CLIENT -> SERVER: [credentials hidden]
+[10-Feb-2025 20:19:36 Europe/Moscow] SMTP Debug: SERVER -> CLIENT: 235 Authentication succeeded
+
+[10-Feb-2025 20:19:36 Europe/Moscow] SMTP Debug: CLIENT -> SERVER: MAIL FROM:<89851007873@mail.ru>
+
+[10-Feb-2025 20:19:36 Europe/Moscow] SMTP Debug: SERVER -> CLIENT: 250 OK
+
+[10-Feb-2025 20:19:36 Europe/Moscow] SMTP Debug: CLIENT -> SERVER: RCPT TO:<89851007873@mail.ru>
+
+[10-Feb-2025 20:19:36 Europe/Moscow] SMTP Debug: SERVER -> CLIENT: 250 Accepted
+
+[10-Feb-2025 20:19:36 Europe/Moscow] SMTP Debug: CLIENT -> SERVER: DATA
+
+[10-Feb-2025 20:19:36 Europe/Moscow] SMTP Debug: SERVER -> CLIENT: 354 Enter message, ending with "." on a line by itself
+
+[10-Feb-2025 20:19:36 Europe/Moscow] SMTP Debug: CLIENT -> SERVER: Date: Mon, 10 Feb 2025 20:19:36 +0300
+
+[10-Feb-2025 20:19:36 Europe/Moscow] SMTP Debug: CLIENT -> SERVER: To: 89851007873@mail.ru
+
+[10-Feb-2025 20:19:36 Europe/Moscow] SMTP Debug: CLIENT -> SERVER: From: Contact Form <89851007873@mail.ru>
+
+[10-Feb-2025 20:19:36 Europe/Moscow] SMTP Debug: CLIENT -> SERVER: Subject: =?UTF-8?B?0J3QvtCy0L7QtSDRgdC+0L7QsdGJ0LXQvdC40LUg0YEg0YHQsNC50YLQsA==?=
+
+[10-Feb-2025 20:19:36 Europe/Moscow] SMTP Debug: CLIENT -> SERVER: Message-ID: <aWqaCmwVGF1RKC9cO1Kq8motj7hNeLtobp78iVe4Y0@reklamaleader.ru>
+
+[10-Feb-2025 20:19:36 Europe/Moscow] SMTP Debug: CLIENT -> SERVER: X-Mailer: PHPMailer 6.9.3 (https://github.com/PHPMailer/PHPMailer)
+
+[10-Feb-2025 20:19:36 Europe/Moscow] SMTP Debug: CLIENT -> SERVER: MIME-Version: 1.0
+
+[10-Feb-2025 20:19:36 Europe/Moscow] SMTP Debug: CLIENT -> SERVER: Content-Type: text/html; charset=UTF-8
+
+[10-Feb-2025 20:19:36 Europe/Moscow] SMTP Debug: CLIENT -> SERVER: Content-Transfer-Encoding: 8bit
+
+[10-Feb-2025 20:19:36 Europe/Moscow] SMTP Debug: CLIENT -> SERVER: 
+
+[10-Feb-2025 20:19:36 Europe/Moscow] SMTP Debug: CLIENT -> SERVER: 
+
+[10-Feb-2025 20:19:36 Europe/Moscow] SMTP Debug: CLIENT -> SERVER:             <h2>Новое сообщение с формы обратной связи</h2>
+
+[10-Feb-2025 20:19:36 Europe/Moscow] SMTP Debug: CLIENT -> SERVER:             <p><strong>Имя:</strong> Наталья</p>
+
+[10-Feb-2025 20:19:36 Europe/Moscow] SMTP Debug: CLIENT -> SERVER:             <p><strong>Номер телефона:</strong> 89262831663</p>
+
+[10-Feb-2025 20:19:36 Europe/Moscow] SMTP Debug: CLIENT -> SERVER:             <p><strong>Сообщение:</strong><br>Мне нужно заказать 1 трафарет с надписью, с вашим монтажом и покраской<br />
+
+[10-Feb-2025 20:19:36 Europe/Moscow] SMTP Debug: CLIENT -> SERVER: </p>
+
+[10-Feb-2025 20:19:36 Europe/Moscow] SMTP Debug: CLIENT -> SERVER:         
+
+[10-Feb-2025 20:19:36 Europe/Moscow] SMTP Debug: CLIENT -> SERVER: 
+
+[10-Feb-2025 20:19:36 Europe/Moscow] SMTP Debug: CLIENT -> SERVER: .
+
+[10-Feb-2025 20:19:36 Europe/Moscow] SMTP Debug: SERVER -> CLIENT: 250 OK id=1thXRY-000000001AZ-1LcB
+
+[10-Feb-2025 20:19:36 Europe/Moscow] SMTP Debug: CLIENT -> SERVER: RSET
+
+[10-Feb-2025 20:19:36 Europe/Moscow] SMTP Debug: SERVER -> CLIENT: 250 Reset OK
+
+[10-Feb-2025 20:19:36 Europe/Moscow] SMTP Debug: CLIENT -> SERVER: QUIT
+
+[10-Feb-2025 20:19:37 Europe/Moscow] SMTP Debug: SERVER -> CLIENT: 221 exim-smtp-5c664d6544-w4t5t closing connection
+
+[13-Feb-2025 04:05:15 Europe/Moscow] Error in send_mail.php: Invalid request method: GET
+[19-Feb-2025 22:20:32 Europe/Moscow] Received input: {"name":"Даниэла","email":"9854852923","message":"Нужен большой трафарет для стены "}
+[19-Feb-2025 22:20:32 Europe/Moscow] SMTP Debug: SERVER -> CLIENT: 220 smtp.mail.ru ESMTP ready (Looking for Mail for your domain? Visit https://biz.mail.ru)
+
+[19-Feb-2025 22:20:32 Europe/Moscow] SMTP Debug: CLIENT -> SERVER: EHLO reklamaleader.ru
+
+[19-Feb-2025 22:20:32 Europe/Moscow] SMTP Debug: SERVER -> CLIENT: 250-smtp.mail.ru
+250-SIZE 73400320
+250-8BITMIME
+250-DSN
+250-SMTPUTF8
+250 AUTH PLAIN LOGIN XOAUTH2
+
+[19-Feb-2025 22:20:32 Europe/Moscow] SMTP Debug: CLIENT -> SERVER: AUTH LOGIN
+
+[19-Feb-2025 22:20:32 Europe/Moscow] SMTP Debug: SERVER -> CLIENT: 334 VXNlcm5hbWU6
+
+[19-Feb-2025 22:20:32 Europe/Moscow] SMTP Debug: CLIENT -> SERVER: [credentials hidden]
+[19-Feb-2025 22:20:32 Europe/Moscow] SMTP Debug: SERVER -> CLIENT: 334 UGFzc3dvcmQ6
+
+[19-Feb-2025 22:20:32 Europe/Moscow] SMTP Debug: CLIENT -> SERVER: [credentials hidden]
+[19-Feb-2025 22:20:32 Europe/Moscow] SMTP Debug: SERVER -> CLIENT: 235 Authentication succeeded
+
+[19-Feb-2025 22:20:32 Europe/Moscow] SMTP Debug: CLIENT -> SERVER: MAIL FROM:<89851007873@mail.ru>
+
+[19-Feb-2025 22:20:32 Europe/Moscow] SMTP Debug: SERVER -> CLIENT: 250 OK
+
+[19-Feb-2025 22:20:32 Europe/Moscow] SMTP Debug: CLIENT -> SERVER: RCPT TO:<89851007873@mail.ru>
+
+[19-Feb-2025 22:20:32 Europe/Moscow] SMTP Debug: SERVER -> CLIENT: 250 Accepted
+
+[19-Feb-2025 22:20:32 Europe/Moscow] SMTP Debug: CLIENT -> SERVER: DATA
+
+[19-Feb-2025 22:20:32 Europe/Moscow] SMTP Debug: SERVER -> CLIENT: 354 Enter message, ending with "." on a line by itself
+
+[19-Feb-2025 22:20:32 Europe/Moscow] SMTP Debug: CLIENT -> SERVER: Date: Wed, 19 Feb 2025 22:20:32 +0300
+
+[19-Feb-2025 22:20:32 Europe/Moscow] SMTP Debug: CLIENT -> SERVER: To: 89851007873@mail.ru
+
+[19-Feb-2025 22:20:32 Europe/Moscow] SMTP Debug: CLIENT -> SERVER: From: Contact Form <89851007873@mail.ru>
+
+[19-Feb-2025 22:20:32 Europe/Moscow] SMTP Debug: CLIENT -> SERVER: Subject: =?UTF-8?B?0J3QvtCy0L7QtSDRgdC+0L7QsdGJ0LXQvdC40LUg0YEg0YHQsNC50YLQsA==?=
+
+[19-Feb-2025 22:20:32 Europe/Moscow] SMTP Debug: CLIENT -> SERVER: Message-ID: <xqv8nYHtcOLYWV8NPGmOsqeICE0E4XkKZVJZgfJc@reklamaleader.ru>
+
+[19-Feb-2025 22:20:32 Europe/Moscow] SMTP Debug: CLIENT -> SERVER: X-Mailer: PHPMailer 6.9.3 (https://github.com/PHPMailer/PHPMailer)
+
+[19-Feb-2025 22:20:32 Europe/Moscow] SMTP Debug: CLIENT -> SERVER: MIME-Version: 1.0
+
+[19-Feb-2025 22:20:32 Europe/Moscow] SMTP Debug: CLIENT -> SERVER: Content-Type: text/html; charset=UTF-8
+
+[19-Feb-2025 22:20:32 Europe/Moscow] SMTP Debug: CLIENT -> SERVER: Content-Transfer-Encoding: 8bit
+
+[19-Feb-2025 22:20:32 Europe/Moscow] SMTP Debug: CLIENT -> SERVER: 
+
+[19-Feb-2025 22:20:32 Europe/Moscow] SMTP Debug: CLIENT -> SERVER: 
+
+[19-Feb-2025 22:20:32 Europe/Moscow] SMTP Debug: CLIENT -> SERVER:             <h2>Новое сообщение с формы обратной связи</h2>
+
+[19-Feb-2025 22:20:32 Europe/Moscow] SMTP Debug: CLIENT -> SERVER:             <p><strong>Имя:</strong> Даниэла</p>
+
+[19-Feb-2025 22:20:32 Europe/Moscow] SMTP Debug: CLIENT -> SERVER:             <p><strong>Номер телефона:</strong> 9854852923</p>
+
+[19-Feb-2025 22:20:32 Europe/Moscow] SMTP Debug: CLIENT -> SERVER:             <p><strong>Сообщение:</strong><br>Нужен большой трафарет для стены </p>
+
+[19-Feb-2025 22:20:32 Europe/Moscow] SMTP Debug: CLIENT -> SERVER:         
+
+[19-Feb-2025 22:20:32 Europe/Moscow] SMTP Debug: CLIENT -> SERVER: 
+
+[19-Feb-2025 22:20:32 Europe/Moscow] SMTP Debug: CLIENT -> SERVER: .
+
+[19-Feb-2025 22:20:32 Europe/Moscow] SMTP Debug: SERVER -> CLIENT: 250 OK id=1tkpcW-00000000TWZ-1rrA
+
+[19-Feb-2025 22:20:32 Europe/Moscow] SMTP Debug: CLIENT -> SERVER: RSET
+
+[19-Feb-2025 22:20:32 Europe/Moscow] SMTP Debug: SERVER -> CLIENT: 250 Reset OK
+
+[19-Feb-2025 22:20:32 Europe/Moscow] SMTP Debug: CLIENT -> SERVER: QUIT
+
+[19-Feb-2025 22:20:33 Europe/Moscow] SMTP Debug: SERVER -> CLIENT: 221 exim-smtp-5f589487f8-vc4wh closing connection
+
+[20-Feb-2025 09:23:56 Europe/Moscow] Received input: {"name":"Олег","email":"+7 (925) 004-94-86","message":"Необходим трафарет(трафареты) для нанесения камуфляжа Мультикам. Поверхности для нанесения сложных форм. Нужны гибкие трафареты размера ~ 100x80 см. Если есть возможность такое изготовить, то просьба связаться со мной"}
+[20-Feb-2025 09:23:56 Europe/Moscow] SMTP Debug: SERVER -> CLIENT: 220 smtp.mail.ru ESMTP ready (Looking for Mail for your domain? Visit https://biz.mail.ru)
+
+[20-Feb-2025 09:23:56 Europe/Moscow] SMTP Debug: CLIENT -> SERVER: EHLO reklamaleader.ru
+
+[20-Feb-2025 09:23:56 Europe/Moscow] SMTP Debug: SERVER -> CLIENT: 250-smtp.mail.ru
+250-SIZE 73400320
+250-8BITMIME
+250-DSN
+250-SMTPUTF8
+250 AUTH PLAIN LOGIN XOAUTH2
+
+[20-Feb-2025 09:23:56 Europe/Moscow] SMTP Debug: CLIENT -> SERVER: AUTH LOGIN
+
+[20-Feb-2025 09:23:56 Europe/Moscow] SMTP Debug: SERVER -> CLIENT: 334 VXNlcm5hbWU6
+
+[20-Feb-2025 09:23:56 Europe/Moscow] SMTP Debug: CLIENT -> SERVER: [credentials hidden]
+[20-Feb-2025 09:23:56 Europe/Moscow] SMTP Debug: SERVER -> CLIENT: 334 UGFzc3dvcmQ6
+
+[20-Feb-2025 09:23:56 Europe/Moscow] SMTP Debug: CLIENT -> SERVER: [credentials hidden]
+[20-Feb-2025 09:23:56 Europe/Moscow] SMTP Debug: SERVER -> CLIENT: 235 Authentication succeeded
+
+[20-Feb-2025 09:23:56 Europe/Moscow] SMTP Debug: CLIENT -> SERVER: MAIL FROM:<89851007873@mail.ru>
+
+[20-Feb-2025 09:23:56 Europe/Moscow] SMTP Debug: SERVER -> CLIENT: 250 OK
+
+[20-Feb-2025 09:23:56 Europe/Moscow] SMTP Debug: CLIENT -> SERVER: RCPT TO:<89851007873@mail.ru>
+
+[20-Feb-2025 09:23:56 Europe/Moscow] SMTP Debug: SERVER -> CLIENT: 250 Accepted
+
+[20-Feb-2025 09:23:56 Europe/Moscow] SMTP Debug: CLIENT -> SERVER: DATA
+
+[20-Feb-2025 09:23:56 Europe/Moscow] SMTP Debug: SERVER -> CLIENT: 354 Enter message, ending with "." on a line by itself
+
+[20-Feb-2025 09:23:56 Europe/Moscow] SMTP Debug: CLIENT -> SERVER: Date: Thu, 20 Feb 2025 09:23:56 +0300
+
+[20-Feb-2025 09:23:56 Europe/Moscow] SMTP Debug: CLIENT -> SERVER: To: 89851007873@mail.ru
+
+[20-Feb-2025 09:23:56 Europe/Moscow] SMTP Debug: CLIENT -> SERVER: From: Contact Form <89851007873@mail.ru>
+
+[20-Feb-2025 09:23:56 Europe/Moscow] SMTP Debug: CLIENT -> SERVER: Subject: =?UTF-8?B?0J3QvtCy0L7QtSDRgdC+0L7QsdGJ0LXQvdC40LUg0YEg0YHQsNC50YLQsA==?=
+
+[20-Feb-2025 09:23:56 Europe/Moscow] SMTP Debug: CLIENT -> SERVER: Message-ID: <KUBHgQ3sLc4mcDX8j56SqEyE9Yl2ayNRj7PUkygXO4@reklamaleader.ru>
+
+[20-Feb-2025 09:23:56 Europe/Moscow] SMTP Debug: CLIENT -> SERVER: X-Mailer: PHPMailer 6.9.3 (https://github.com/PHPMailer/PHPMailer)
+
+[20-Feb-2025 09:23:56 Europe/Moscow] SMTP Debug: CLIENT -> SERVER: MIME-Version: 1.0
+
+[20-Feb-2025 09:23:56 Europe/Moscow] SMTP Debug: CLIENT -> SERVER: Content-Type: text/html; charset=UTF-8
+
+[20-Feb-2025 09:23:56 Europe/Moscow] SMTP Debug: CLIENT -> SERVER: Content-Transfer-Encoding: 8bit
+
+[20-Feb-2025 09:23:56 Europe/Moscow] SMTP Debug: CLIENT -> SERVER: 
+
+[20-Feb-2025 09:23:56 Europe/Moscow] SMTP Debug: CLIENT -> SERVER: 
+
+[20-Feb-2025 09:23:56 Europe/Moscow] SMTP Debug: CLIENT -> SERVER:             <h2>Новое сообщение с формы обратной связи</h2>
+
+[20-Feb-2025 09:23:56 Europe/Moscow] SMTP Debug: CLIENT -> SERVER:             <p><strong>Имя:</strong> Олег</p>
+
+[20-Feb-2025 09:23:56 Europe/Moscow] SMTP Debug: CLIENT -> SERVER:             <p><strong>Номер телефона:</strong> +7 (925) 004-94-86</p>
+
+[20-Feb-2025 09:23:56 Europe/Moscow] SMTP Debug: CLIENT -> SERVER:             <p><strong>Сообщение:</strong><br>Необходим трафарет(трафареты) для нанесения камуфляжа Мультикам. Поверхности для нанесения сложных форм. Нужны гибкие трафареты размера ~ 100x80 см. Если есть возможность такое изготовить, то просьба связаться со мной</p>
+
+[20-Feb-2025 09:23:56 Europe/Moscow] SMTP Debug: CLIENT -> SERVER:         
+
+[20-Feb-2025 09:23:56 Europe/Moscow] SMTP Debug: CLIENT -> SERVER: 
+
+[20-Feb-2025 09:23:56 Europe/Moscow] SMTP Debug: CLIENT -> SERVER: .
+
+[20-Feb-2025 09:23:57 Europe/Moscow] SMTP Debug: SERVER -> CLIENT: 250 OK id=1tkzyW-00000000Gdq-24F8
+
+[20-Feb-2025 09:23:57 Europe/Moscow] SMTP Debug: CLIENT -> SERVER: RSET
+
+[20-Feb-2025 09:23:57 Europe/Moscow] SMTP Debug: SERVER -> CLIENT: 250 Reset OK
+
+[20-Feb-2025 09:23:57 Europe/Moscow] SMTP Debug: CLIENT -> SERVER: QUIT
+
+[20-Feb-2025 09:23:57 Europe/Moscow] SMTP Debug: SERVER -> CLIENT: 221 exim-smtp-5f589487f8-88nnr closing connection
+

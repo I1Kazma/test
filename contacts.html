@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Контакты | Трафареты</title>
+    <!-- SEO Meta Tags -->
+    <meta name="description" content="Контакты | Трафареты">
+    <meta name="keywords" content="Контакты | Трафареты">
+    <!-- Font Awesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="container">
+            <div class="contact-info">
+                <a href="tel:+79660483367" class="contact-item">
+                    <i class="fas fa-phone"></i>
+                    +7 (966) 047 98 37
+                </a>
+                <a href="https://t.me/AVS925" class="contact-item">
+                    <i class="fab fa-telegram"></i>
+                    Telegram
+                </a>
+                <a href="https://wa.me/+79851007873" class="contact-item">
+                    <i class="fab fa-whatsapp"></i>
+                    WhatsApp
+                </a>
+            </div>
+        </div>
+    </header>
+
+    <!-- Navigation -->
+    <nav class="nav">
+        <div class="container">
+            <a href="index.html" class="logo">Контакты | Трафареты</a>
+            <button class="nav-toggle" aria-label="Открыть меню">
+                <i class="fas fa-bars"></i>
+            </button>
+            <ul class="nav-menu">
+                <li><a href="index.html">Главная</a></li>
+                <li><a href="index.html#categories">Категории</a></li>
+                <li><a href="contacts.html" class="active">Контакты</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Main Content -->
+    <main>
+        <section class="contacts-page">
+            <div class="container">
+                <h1>Контакты</h1>
+                <div class="contacts-content">
+                    <div class="contacts-info">
+                        <div class="contact-block">
+                            <h2>Телефоны</h2>
+                            <div class="contact-item-large">
+                                <i class="fas fa-phone"></i>
+                                <div class="contact-details">
+                                    <a href="tel:+79660483367">+7 (966) 047 98 37</a>
+                                    <span class="work-hours">По будням с 9 до 20</span>
+                                </div>
+                            </div>
+                            <div class="contact-item-large">
+                                <i class="fas fa-phone"></i>
+                                <div class="contact-details">
+                                    <a href="tel:+79588065608">+7 (985) 100 78 73</a>
+                                    <span class="work-hours">Ежедневно с 10 до 20</span>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="contact-block">
+                            <h2>Мессенджеры</h2>
+                            <div class="messengers">
+                                <a href="https://t.me/AVS925" class="messenger-link">
+                                    <i class="fab fa-telegram"></i>
+                                    <span>Telegram</span>
+                                </a>
+                                <a href="https://wa.me/+79851007873" class="messenger-link">
+                                    <i class="fab fa-whatsapp"></i>
+                                    <span>WhatsApp</span>
+                                </a>
+                            </div>
+                        </div>
+
+                        <div class="contact-block">
+                            <h2>Социальные сети</h2>
+                            <div class="social-links">
+                                <a href="#" class="social-link">
+                                    <i class="fab fa-youtube"></i>
+                                    <span>YouTube</span>
+                                </a>
+                                <a href="#" class="social-link">
+                                    <i class="fab fa-instagram"></i>
+                                    <span>Instagram</span>
+                                </a>
+                            </div>
+                        </div>
+
+                        <div class="contact-block">
+                            <h2>Наш адрес</h2>
+                            <div class="contact-item-large">
+                                <i class="fas fa-map-marker-alt"></i>
+                                <div class="contact-details">
+                                    <span>г. Москва, Свободный проспект, д. 7, корп. 2</span>
+                                    <small>Пн-Пт: 9:00-18:00</small>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="contact-form-block">
+                        <h2>Заказать обратный звонок</h2>
+                        <form id="contactForm" class="contact-form">
+                            <div class="form-group">
+                                <label for="modalName">Имя</label>
+                                <input type="text" id="modalName" name="name" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="modalEmail">Номер телефона</label>
+                                <input type="tel" id="modalEmail" name="email" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="modalComment">Сообщение</label>
+                                <textarea id="modalComment" name="comment" rows="4" required></textarea>
+                            </div>
+                            <button type="submit" class="btn">Отправить</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <!-- ... (такой же футер, как на главной странице) ... -->
+
+    <!-- Custom JavaScript -->
+    <script src="script.js"></script>
+    <script src="contact-form.js"></script>
+<!-- Yandex.Metrika counter -->
+<script type="text/javascript" >
+   (function(m,e,t,r,i,k,a){m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};
+   m[i].l=1*new Date();
+   for (var j = 0; j < document.scripts.length; j++) {if (document.scripts[j].src === r) { return; }}
+   k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)})
+   (window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym");
+
+   ym(93886890, "init", {
+        clickmap:true,
+        trackLinks:true,
+        accurateTrackBounce:true,
+        webvisor:true,
+        ecommerce:"dataLayer"
+   });
+</script>
+<noscript><div><img src="https://mc.yandex.ru/watch/93886890" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
+<!-- /Yandex.Metrika counter -->
+</body>
+</html> 
