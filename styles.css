@@ -1010,3 +1010,49 @@ body {
 .about-address i {
   color: #ff0000;
 }
+
+.social-buttons {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.social-button {
+  border-radius: 25px;
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  text-decoration: none;
+  align-items: center;
+  padding: 4px 8px;
+  transition: 0.3s ease;
+}
+
+.social-button span {
+  color: white;
+}
+
+.social-button img {
+  width: 36px;
+  height: 36px;
+}
+
+.button-telegram {
+  background: #0088cc;
+}
+
+.button-whatsapp {
+  background: #2cb742;
+}
+
+.button-telegram:hover {
+  background: #0088ccc0;
+}
+
+.button-whatsapp:hover {
+  background: #2cb741a8;
+}
