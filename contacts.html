@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="ru">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -14,6 +15,7 @@
     <!-- Custom CSS -->
     <link rel="stylesheet" href="styles.css">
 </head>
+
 <body>
     <!-- Header -->
     <header class="header">
@@ -74,7 +76,7 @@
                                 </div>
                             </div>
                         </div>
-                        
+
                         <div class="contact-block">
                             <h2>Мессенджеры</h2>
                             <div class="messengers">
@@ -117,18 +119,19 @@
 
                     <div class="contact-form-block">
                         <h2>Заказать обратный звонок</h2>
-                        <form id="contactForm" class="contact-form">
+                        <form id="modalForm" class="contact-form" action="/send_mail.php" method="post">
                             <div class="form-group">
                                 <label for="modalName">Имя</label>
-                                <input type="text" id="modalName" name="name" required>
+                                <input type="text" id="modalName" name="name" placeholder="Иван Иванов" required>
                             </div>
                             <div class="form-group">
                                 <label for="modalEmail">Номер телефона</label>
-                                <input type="tel" id="modalEmail" name="email" required>
+                                <input type="tel" id="modalEmail" name="phone" placeholder="+7(___)___-__-__" required>
                             </div>
                             <div class="form-group">
                                 <label for="modalComment">Сообщение</label>
-                                <textarea id="modalComment" name="comment" rows="4" required></textarea>
+                                <textarea id="modalComment" name="comment" rows="4" placeholder="Ваш вопрос?"
+                                    required></textarea>
                             </div>
                             <button type="submit" class="btn">Отправить</button>
                         </form>
@@ -144,23 +147,28 @@
     <!-- Custom JavaScript -->
     <script src="script.js"></script>
     <script src="contact-form.js"></script>
-<!-- Yandex.Metrika counter -->
-<script type="text/javascript" >
-   (function(m,e,t,r,i,k,a){m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};
-   m[i].l=1*new Date();
-   for (var j = 0; j < document.scripts.length; j++) {if (document.scripts[j].src === r) { return; }}
-   k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)})
-   (window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym");
+    <!-- Yandex.Metrika counter -->
+    <script type="text/javascript">
+        (function (m, e, t, r, i, k, a) {
+            m[i] = m[i] || function () { (m[i].a = m[i].a || []).push(arguments) };
+            m[i].l = 1 * new Date();
+            for (var j = 0; j < document.scripts.length; j++) { if (document.scripts[j].src === r) { return; } }
+            k = e.createElement(t), a = e.getElementsByTagName(t)[0], k.async = 1, k.src = r, a.parentNode.insertBefore(k, a)
+        })
+            (window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym");
 
-   ym(93886890, "init", {
-        clickmap:true,
-        trackLinks:true,
-        accurateTrackBounce:true,
-        webvisor:true,
-        ecommerce:"dataLayer"
-   });
-</script>
-<noscript><div><img src="https://mc.yandex.ru/watch/93886890" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
-<!-- /Yandex.Metrika counter -->
+        ym(93886890, "init", {
+            clickmap: true,
+            trackLinks: true,
+            accurateTrackBounce: true,
+            webvisor: true,
+            ecommerce: "dataLayer"
+        });
+    </script>
+    <noscript>
+        <div><img src="https://mc.yandex.ru/watch/93886890" style="position:absolute; left:-9999px;" alt="" /></div>
+    </noscript>
+    <!-- /Yandex.Metrika counter -->
 </body>
-</html> 
+
+</html>
