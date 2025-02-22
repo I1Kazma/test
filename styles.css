@@ -176,7 +176,7 @@ body {
 }
 
 .hero h1 {
-  font-size: 48px;
+  font-size: 36px;
   margin-bottom: 20px;
   color: #333;
   max-width: 800px;
@@ -515,13 +515,13 @@ body {
   }
 
   .hero h1 {
-    font-size: 36px;
+    font-size: 30px;
   }
 }
 
 @media (max-width: 480px) {
   .hero h1 {
-    font-size: 28px;
+    font-size: 24px;
   }
 
   .category-grid {
@@ -545,7 +545,7 @@ body {
 
 .features-grid {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(2, 1fr);
   gap: 30px;
   margin-bottom: 50px;
 }
